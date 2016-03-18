@@ -13,6 +13,9 @@ print("Total {0} titles.".format(len(titles)))
 
 text = ' '.join(titles)
 
+# "network" appears 22 times
+text = text.replace("network", " ", 16)
+
 stopwords = set([x.strip()
                  for x in open('stopwords', 'r').read().split('\n')])
 cloud_generator = wc.WordCloud(
