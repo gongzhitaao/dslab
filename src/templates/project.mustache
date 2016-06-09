@@ -1,0 +1,34 @@
+<!-- -*- mode: web -*- -->
+
+<!DOCTYPE html>
+<html>
+  {{> partials/head}}
+  <body class="project">
+
+    {{> partials/header}}
+
+    <div class="container">
+
+    {{#projects}}
+      <div class="row">
+        <div class="col-sm-12 col-md-offset-2 col-md-8">
+          <div class="media">
+            <div class="media">
+              <div class="pull-left">
+                <img class="media-object img-rounded" src="/dslab/img/{{picture}}" alt="{{title}}">
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading">{{title}}</h3>
+                <p>{{summary}}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    {{/projects}}
+
+    </div>
+
+    {{> partials/footer}}
+  </body>
+</html>

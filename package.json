@@ -1,0 +1,35 @@
+{
+  "name": "kulab",
+  "version": "0.1.0",
+  "description": "Website for Dr. Ku's lab",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gongzhitaao/dslab.git"
+  },
+  "author": "gongzhitaao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gongzhitaao/dslab/issues"
+  },
+  "homepage": "https://github.com/gongzhitaao/dslab#readme",
+  "devDependencies": {
+    "browser-sync": "^2.12.8",
+    "cssnano": "^3.5.2",
+    "gulp": "^3.9.1",
+    "gulp-continuous-concat": "^0.1.1",
+    "gulp-filter": "^4.0.0",
+    "gulp-flatmap": "^1.0.0",
+    "gulp-htmlmin": "^2.0.0",
+    "gulp-mustache": "^2.2.0",
+    "gulp-postcss": "^6.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.1",
+    "gulp-uglify": "^1.5.3",
+    "gulp-watch": "^4.3.5",
+    "merge2": "^1.0.2"
+  }
+}

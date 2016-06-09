@@ -1,0 +1,48 @@
+{
+  "title": "Home",
+  "links": [
+    {
+      "active": "active",
+      "name": "Home",
+      "url": "./"
+    },
+    {
+      "name": "People",
+      "url": "people"
+    },
+    {
+      "name": "Project",
+      "url": "project"
+    },
+    {
+      "name": "Publication",
+      "url": "publication"
+    },
+    {
+      "name": "Contact",
+      "url": "contact"
+    }
+  ],
+  "sponsors": [
+    {
+      "name": "Auburn University",
+      "url": "http://auburn.edu",
+      "img": "img/auburn_university.jpg"
+    },
+    {
+      "name": "Department of Engergy",
+      "url": "http://www.energy.gov/",
+      "img": "img/deptofenergy.svg"
+    },
+    {
+      "name": "National Science Foundation",
+      "url": "http://www.nsf.gov",
+      "img": "img/nsf.jpg"
+    },
+    {
+      "name": "Air Force Research Laboratory",
+      "url": "http://www.losangeles.af.mil",
+      "img": "img/afrl.png"
+    }
+  ]
+}

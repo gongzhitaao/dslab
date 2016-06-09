@@ -1,0 +1,2590 @@
+{
+  "title": "Project",
+  "links": [
+    {
+      "name": "Home",
+      "url": "./"
+    },
+    {
+      "name": "People",
+      "url": "people"
+    },
+    {
+      "name": "Project",
+      "url": "project"
+    },
+    {
+      "active": "active",
+      "name": "Publication",
+      "url": "publication"
+    },
+    {
+      "name": "Contact",
+      "url": "contact"
+    }
+  ],
+  "data": [
+    {
+      "DOI": "10.1016/j.adhoc.2015.01.015",
+      "URL": "http://dx.doi.org/10.1016/j.adhoc.2015.01.015",
+      "author": [
+        {
+          "family": "Sakai",
+          "given": "Kazuya"
+        },
+        {
+          "family": "Sun",
+          "given": "Min-Te"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Huang",
+          "given": "Scott C.-H."
+        }
+      ],
+      "container-title": "Ad Hoc Networks",
+      "id": "DBLP:journals/adhoc/SakaiSKH15",
+      "issued": {
+        "date-parts": [
+          [
+            2015
+          ]
+        ]
+      },
+      "page": "1-14",
+      "title": "On mobility handling of sub-optimal timer-based CDS construction",
+      "type": "article-journal",
+      "volume": "29"
+    },
+    {
+      "DOI": "10.1109/ICDCS.2015.77",
+      "URL": "http://dx.doi.org/10.1109/ICDCS.2015.77",
+      "author": [
+        {
+          "family": "Sakai",
+          "given": "Kazuya"
+        },
+        {
+          "family": "Sun",
+          "given": "Min-Te"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Wu",
+          "given": "Jie"
+        },
+        {
+          "family": "Lai",
+          "given": "Ten-Hwang"
+        }
+      ],
+      "container-title": "35th IEEE international conference on distributed computing systems, ICDCS 2015, columbus, oH, uSA, june 29 - july 2, 2015",
+      "id": "DBLP:conf/icdcs/SakaiSKWL15",
+      "issued": {
+        "date-parts": [
+          [
+            2015
+          ]
+        ]
+      },
+      "page": "706-715",
+      "title": "Multi-path based avoidance routing in wireless networks",
+      "type": "paper-conference"
+    },
+    {
+      "DOI": "10.1109/TDSC.2014.2304296",
+      "URL": "http://doi.ieeecomputersociety.org/10.1109/TDSC.2014.2304296",
+      "author": [
+        {
+          "family": "Huang",
+          "given": "Jianzhong"
+        },
+        {
+          "family": "Qin",
+          "given": "Xiao"
+        },
+        {
+          "family": "Zhang",
+          "given": "Fenghao"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Xie",
+          "given": "Changsheng"
+        }
+      ],
+      "container-title": "IEEE Trans. Dependable Sec. Comput.",
+      "id": "DBLP:journals/tdsc/HuangQZKX14",
+      "issue": "6",
+      "issued": {
+        "date-parts": [
+          [
+            2014
+          ]
+        ]
+      },
+      "page": "524-537",
+      "title": "MFTS: A multi-level fault-tolerant archiving storage with optimized maintenance bandwidth",
+      "type": "article-journal",
+      "volume": "11"
+    },
+    {
+      "DOI": "10.1109/TKDE.2013.174",
+      "URL": "http://doi.ieeecomputersociety.org/10.1109/TKDE.2013.174",
+      "author": [
+        {
+          "family": "Jing",
+          "given": "Yinan"
+        },
+        {
+          "family": "Hu",
+          "given": "Ling"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Shahabi",
+          "given": "Cyrus"
+        }
+      ],
+      "container-title": "IEEE Trans. Knowl. Data Eng.",
+      "id": "DBLP:journals/tkde/JingHKS14",
+      "issue": "6",
+      "issued": {
+        "date-parts": [
+          [
+            2014
+          ]
+        ]
+      },
+      "page": "1494-1506",
+      "title": "Authentication of k nearest neighbor query on road networks",
+      "type": "article-journal",
+      "volume": "26"
+    },
+    {
+      "DOI": "10.5441/002/edbt.2014.36",
+      "URL": "http://dx.doi.org/10.5441/002/edbt.2014.36",
+      "author": [
+        {
+          "family": "Zhang",
+          "given": "Ji"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Sun",
+          "given": "Min-Te"
+        },
+        {
+          "family": "Qin",
+          "given": "Xiao"
+        },
+        {
+          "family": "Lu",
+          "given": "Hua"
+        }
+      ],
+      "container-title": "Proceedings of the 17th international conference on extending database technology, EDBT 2014, athens, greece, march 24-28, 2014.",
+      "id": "DBLP:conf/edbt/ZhangKSQL14",
+      "issued": {
+        "date-parts": [
+          [
+            2014
+          ]
+        ]
+      },
+      "page": "391-402",
+      "title": "Multi-criteria optimal location query with overlapping voronoi diagrams",
+      "type": "paper-conference"
+    },
+    {
+      "DOI": "10.1145/2666310.2666428",
+      "URL": "http://doi.acm.org/10.1145/2666310.2666428",
+      "author": [
+        {
+          "family": "Tang",
+          "given": "Liang"
+        },
+        {
+          "family": "Chen",
+          "given": "Haiquan"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Sun",
+          "given": "Min-Te"
+        }
+      ],
+      "container-title": "Proceedings of the 22nd ACM SIGSPATIAL international conference on advances in geographic information systems, dallas/Fort worth, tX, uSA, november 4-7, 2014",
+      "id": "DBLP:conf/gis/TangCKS14",
+      "issued": {
+        "date-parts": [
+          [
+            2014
+          ]
+        ]
+      },
+      "page": "397-400",
+      "title": "Parameterized spatial query processing based on social probabilistic clustering",
+      "type": "paper-conference"
+    },
+    {
+      "DOI": "10.1007/978-3-319-13186-3_60",
+      "URL": "http://dx.doi.org/10.1007/978-3-319-13186-3_60",
+      "author": [
+        {
+          "family": "Teng",
+          "given": "Shan-Yun"
+        },
+        {
+          "family": "Chung",
+          "given": "Tzu-Yuan"
+        },
+        {
+          "family": "Chuang",
+          "given": "Kun-Ta"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        }
+      ],
+      "container-title": "Trends and applications in knowledge discovery and data mining - PAKDD 2014 international workshops: DANTH, bDM, mobiSocial, bigEC, cloudSD, mSMV-mBI, sDA, dMDA-health, aLSIP, socNet, dMBIH, bigPMA,Tainan, taiwan, may 13-16, 2014. revised selected papers",
+      "id": "DBLP:conf/pakdd/TengCCK14",
+      "issued": {
+        "date-parts": [
+          [
+            2014
+          ]
+        ]
+      },
+      "page": "677-688",
+      "title": "Toward mining user traversal patterns in the indoor environment",
+      "type": "paper-conference"
+    },
+    {
+      "DOI": "10.1016/j.compeleceng.2012.07.005",
+      "URL": "http://dx.doi.org/10.1016/j.compeleceng.2012.07.005",
+      "author": [
+        {
+          "family": "Chen",
+          "given": "Li-Han"
+        },
+        {
+          "family": "Hsu",
+          "given": "Fu-Hau"
+        },
+        {
+          "family": "Hwang",
+          "given": "Yanling"
+        },
+        {
+          "family": "Su",
+          "given": "Mu-Chun"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Chang",
+          "given": "Chi-Hsuan"
+        }
+      ],
+      "container-title": "Computers & Electrical Engineering",
+      "id": "DBLP:journals/cee/ChenHHSKC13",
+      "issue": "7",
+      "issued": {
+        "date-parts": [
+          [
+            2013
+          ]
+        ]
+      },
+      "page": "2233-2242",
+      "title": "ARMORY: an automatic security testing tool for buffer overflow defect detection",
+      "type": "article-journal",
+      "volume": "39"
+    },
+    {
+      "DOI": "10.1007/s10707-012-0156-9",
+      "URL": "http://dx.doi.org/10.1007/s10707-012-0156-9",
+      "author": [
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Hu",
+          "given": "Ling"
+        },
+        {
+          "family": "Shahabi",
+          "given": "Cyrus"
+        },
+        {
+          "family": "Wang",
+          "given": "Haixun"
+        }
+      ],
+      "container-title": "GeoInformatica",
+      "id": "DBLP:journals/geoinformatica/KuHSW13",
+      "issue": "1",
+      "issued": {
+        "date-parts": [
+          [
+            2013
+          ]
+        ]
+      },
+      "page": "97-124",
+      "title": "A query integrity assurance scheme for accessing outsourced spatial databases",
+      "type": "article-journal",
+      "volume": "17"
+    },
+    {
+      "DOI": "10.1109/MIC.2012.21",
+      "URL": "http://doi.ieeecomputersociety.org/10.1109/MIC.2012.21",
+      "author": [
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Chen",
+          "given": "Haiquan"
+        },
+        {
+          "family": "Wang",
+          "given": "Chih-Jye"
+        },
+        {
+          "family": "Liu",
+          "given": "Chuan-Ming"
+        }
+      ],
+      "container-title": "IEEE Internet Computing",
+      "id": "DBLP:journals/internet/KuCWL13",
+      "issue": "2",
+      "issued": {
+        "date-parts": [
+          [
+            2013
+          ]
+        ]
+      },
+      "page": "35-43",
+      "title": "Geo-store: A framework for supporting semantics-enabled location-based services",
+      "title-short": "Geo-store",
+      "type": "article-journal",
+      "volume": "17"
+    },
+    {
+      "DOI": "10.1109/TC.2011.248",
+      "URL": "http://doi.ieeecomputersociety.org/10.1109/TC.2011.248",
+      "author": [
+        {
+          "family": "Sakai",
+          "given": "Kazuya"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Zimmermann",
+          "given": "Roger"
+        },
+        {
+          "family": "Sun",
+          "given": "Min-Te"
+        }
+      ],
+      "container-title": "IEEE Trans. Computers",
+      "id": "DBLP:journals/tc/SakaiKZS13",
+      "issue": "1",
+      "issued": {
+        "date-parts": [
+          [
+            2013
+          ]
+        ]
+      },
+      "page": "112-123",
+      "title": "Dynamic bit encoding for privacy protection against correlation attacks in RFID backward channel",
+      "type": "article-journal",
+      "volume": "62"
+    },
+    {
+      "DOI": "10.1109/TKDE.2011.267",
+      "URL": "http://doi.ieeecomputersociety.org/10.1109/TKDE.2011.267",
+      "author": [
+        {
+          "family": "Hu",
+          "given": "Ling"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Bakiras",
+          "given": "Spiridon"
+        },
+        {
+          "family": "Shahabi",
+          "given": "Cyrus"
+        }
+      ],
+      "container-title": "IEEE Trans. Knowl. Data Eng.",
+      "id": "DBLP:journals/tkde/HuKBS13",
+      "issue": "4",
+      "issued": {
+        "date-parts": [
+          [
+            2013
+          ]
+        ]
+      },
+      "page": "863-876",
+      "title": "Spatial query integrity with voronoi neighbors",
+      "type": "article-journal",
+      "volume": "25"
+    },
+    {
+      "DOI": "10.1109/TKDE.2012.116",
+      "URL": "http://doi.ieeecomputersociety.org/10.1109/TKDE.2012.116",
+      "author": [
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Chen",
+          "given": "Haiquan"
+        },
+        {
+          "family": "Wang",
+          "given": "Haixun"
+        },
+        {
+          "family": "Sun",
+          "given": "Min-Te"
+        }
+      ],
+      "container-title": "IEEE Trans. Knowl. Data Eng.",
+      "id": "DBLP:journals/tkde/KuCWS13",
+      "issue": "10",
+      "issued": {
+        "date-parts": [
+          [
+            2013
+          ]
+        ]
+      },
+      "page": "2177-2191",
+      "title": "A bayesian inference-based framework for RFID data cleansing",
+      "type": "article-journal",
+      "volume": "25"
+    },
+    {
+      "DOI": "10.1145/2501643.2501645",
+      "URL": "http://doi.acm.org/10.1145/2501643.2501645",
+      "author": [
+        {
+          "family": "Sakai",
+          "given": "Kazuya"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Sun",
+          "given": "Min-Te"
+        },
+        {
+          "family": "Zimmermann",
+          "given": "Roger"
+        }
+      ],
+      "container-title": "TOMCCAP",
+      "id": "DBLP:journals/tomccap/SakaiKSZ13",
+      "issue": "4",
+      "issued": {
+        "date-parts": [
+          [
+            2013
+          ]
+        ]
+      },
+      "page": "23:1-23:22",
+      "title": "Privacy preserving continuous multimedia streaming in mANETs",
+      "type": "article-journal",
+      "volume": "9"
+    },
+    {
+      "DOI": "10.1145/2452376.2452408",
+      "URL": "http://doi.acm.org/10.1145/2452376.2452408",
+      "author": [
+        {
+          "family": "Yu",
+          "given": "Jiao"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Sun",
+          "given": "Min-Te"
+        },
+        {
+          "family": "Lu",
+          "given": "Hua"
+        }
+      ],
+      "container-title": "Joint 2013 EDBT/ICDT conferences, EDBT ’13 proceedings, genoa, italy, march 18-22, 2013",
+      "id": "DBLP:conf/edbt/YuKSL13",
+      "issued": {
+        "date-parts": [
+          [
+            2013
+          ]
+        ]
+      },
+      "page": "263-274",
+      "title": "An RFID and particle filter-based indoor spatial query evaluation system",
+      "type": "paper-conference"
+    },
+    {
+      "DOI": "10.1145/2525314.2525315",
+      "URL": "http://doi.acm.org/10.1145/2525314.2525315",
+      "author": [
+        {
+          "family": "Zhang",
+          "given": "Ji"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Jiang",
+          "given": "Xunfei"
+        },
+        {
+          "family": "Qin",
+          "given": "Xiao"
+        }
+      ],
+      "container-title": "21st SIGSPATIAL international conference on advances in geographic information systems, SIGSPATIAL 2013, orlando, fL, uSA, november 5-8, 2013",
+      "id": "DBLP:conf/gis/ZhangKJQ13",
+      "issued": {
+        "date-parts": [
+          [
+            2013
+          ]
+        ]
+      },
+      "page": "498-501",
+      "title": "A spatial keyword evaluation framework for network-based spatial queries",
+      "type": "paper-conference"
+    },
+    {
+      "DOI": "10.1109/ICDE.2013.6544833",
+      "URL": "http://dx.doi.org/10.1109/ICDE.2013.6544833",
+      "author": [
+        {
+          "family": "Chen",
+          "given": "Haiquan"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Wang",
+          "given": "Haixun"
+        },
+        {
+          "family": "Tang",
+          "given": "Liang"
+        },
+        {
+          "family": "Sun",
+          "given": "Min-Te"
+        }
+      ],
+      "container-title": "29th IEEE international conference on data engineering, ICDE 2013, brisbane, australia, april 8-12, 2013",
+      "id": "DBLP:conf/icde/ChenKWTS13",
+      "issued": {
+        "date-parts": [
+          [
+            2013
+          ]
+        ]
+      },
+      "page": "290-301",
+      "title": "LinkProbe: Probabilistic inference on large-scale social networks",
+      "title-short": "LinkProbe",
+      "type": "paper-conference"
+    },
+    {
+      "DOI": "10.1109/MDM.2013.41",
+      "URL": "http://dx.doi.org/10.1109/MDM.2013.41",
+      "author": [
+        {
+          "family": "Zhang",
+          "given": "Ji"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Jiang",
+          "given": "Xunfei"
+        },
+        {
+          "family": "Qin",
+          "given": "Xiao"
+        },
+        {
+          "family": "Hsueh",
+          "given": "Yu-Ling"
+        }
+      ],
+      "container-title": "2013 IEEE 14th international conference on mobile data management, milan, italy, june 3-6, 2013 - volume 1",
+      "id": "DBLP:conf/mdm/ZhangKJQH13",
+      "issued": {
+        "date-parts": [
+          [
+            2013
+          ]
+        ]
+      },
+      "page": "279-282",
+      "title": "Evaluation of spatial keyword queries with partial result support on spatial networks",
+      "type": "paper-conference"
+    },
+    {
+      "DOI": "10.1145/2491288.2491322",
+      "URL": "http://doi.acm.org/10.1145/2491288.2491322",
+      "author": [
+        {
+          "family": "Sakai",
+          "given": "Kazuya"
+        },
+        {
+          "family": "Sun",
+          "given": "Min-Te"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Lai",
+          "given": "Ten-Hwang"
+        }
+      ],
+      "container-title": "The fourteenth ACM international symposium on mobile ad hoc networking and computing, mobiHoc ’13, bangalore, india, july 29 - august 01, 2013",
+      "id": "DBLP:conf/mobihoc/SakaiSKL13",
+      "issued": {
+        "date-parts": [
+          [
+            2013
+          ]
+        ]
+      },
+      "page": "277-280",
+      "title": "Randomized skip lists-based private authentication for large-scale RFID systems",
+      "type": "paper-conference"
+    },
+    {
+      "DOI": "10.1145/2424321.2424371",
+      "URL": "http://doi.acm.org/10.1145/2424321.2424371",
+      "author": [
+        {
+          "family": "Hsueh",
+          "given": "Yu-Ling"
+        },
+        {
+          "family": "Zimmermann",
+          "given": "Roger"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        }
+      ],
+      "container-title": "SIGSPATIAL 2012 international conference on advances in geographic information systems (formerly known as gIS), sIGSPATIAL’12, redondo beach, cA, uSA, november 7-9, 2012",
+      "id": "DBLP:conf/gis/HsuehZK12",
+      "issued": {
+        "date-parts": [
+          [
+            2012
+          ]
+        ]
+      },
+      "page": "386-389",
+      "title": "Caching support for skyline query processing with partially-ordered domains",
+      "type": "paper-conference"
+    },
+    {
+      "DOI": "10.1145/2424321.2424380",
+      "URL": "http://doi.acm.org/10.1145/2424321.2424380",
+      "author": [
+        {
+          "family": "Hu",
+          "given": "Ling"
+        },
+        {
+          "family": "Jing",
+          "given": "Yinan"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Shahabi",
+          "given": "Cyrus"
+        }
+      ],
+      "container-title": "SIGSPATIAL 2012 international conference on advances in geographic information systems (formerly known as gIS), sIGSPATIAL’12, redondo beach, cA, uSA, november 7-9, 2012",
+      "id": "DBLP:conf/gis/HuJKS12",
+      "issued": {
+        "date-parts": [
+          [
+            2012
+          ]
+        ]
+      },
+      "page": "422-425",
+      "title": "Enforcing k nearest neighbor query integrity on road networks",
+      "type": "paper-conference"
+    },
+    {
+      "DOI": "10.1145/2424321.2424385",
+      "URL": "http://doi.acm.org/10.1145/2424321.2424385",
+      "author": [
+        {
+          "family": "Wang",
+          "given": "Chih-Jye"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        }
+      ],
+      "container-title": "SIGSPATIAL 2012 international conference on advances in geographic information systems (formerly known as gIS), sIGSPATIAL’12, redondo beach, cA, uSA, november 7-9, 2012",
+      "id": "DBLP:conf/gis/WangK12",
+      "issued": {
+        "date-parts": [
+          [
+            2012
+          ]
+        ]
+      },
+      "page": "442-445",
+      "title": "Efficient evaluation of skyline queries in wireless data broadcast environments",
+      "type": "paper-conference"
+    },
+    {
+      "DOI": "10.1145/2424321.2424416",
+      "URL": "http://doi.acm.org/10.1145/2424321.2424416",
+      "author": [
+        {
+          "family": "Wang",
+          "given": "Chih-Jye"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Chen",
+          "given": "Haiquan"
+        }
+      ],
+      "container-title": "SIGSPATIAL 2012 international conference on advances in geographic information systems (formerly known as gIS), sIGSPATIAL’12, redondo beach, cA, uSA, november 7-9, 2012",
+      "id": "DBLP:conf/gis/WangKC12",
+      "issued": {
+        "date-parts": [
+          [
+            2012
+          ]
+        ]
+      },
+      "page": "562-565",
+      "title": "Geo-store: A spatially-augmented SPARQL query evaluation system",
+      "title-short": "Geo-store",
+      "type": "paper-conference"
+    },
+    {
+      "DOI": "10.1109/ICDEW.2012.78",
+      "URL": "http://dx.doi.org/10.1109/ICDEW.2012.78",
+      "author": [
+        {
+          "family": "Wang",
+          "given": "Chih-Jye"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        }
+      ],
+      "container-title": "Workshops proceedings of the IEEE 28th international conference on data engineering, ICDE 2012, arlington, vA, uSA, april 1-5, 2012",
+      "id": "DBLP:conf/icde/WangK12",
+      "issued": {
+        "date-parts": [
+          [
+            2012
+          ]
+        ]
+      },
+      "page": "220-227",
+      "title": "Anonymous sensory data collection approach for mobile participatory sensing",
+      "type": "paper-conference"
+    },
+    {
+      "DOI": "10.1016/j.adhoc.2010.07.013",
+      "URL": "http://dx.doi.org/10.1016/j.adhoc.2010.07.013",
+      "author": [
+        {
+          "family": "Sun",
+          "given": "Min-Te"
+        },
+        {
+          "family": "Sakai",
+          "given": "Kazuya"
+        },
+        {
+          "family": "Hamilton",
+          "given": "Benjamin R."
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Ma",
+          "given": "Xiaoli"
+        }
+      ],
+      "container-title": "Ad Hoc Networks",
+      "id": "DBLP:journals/adhoc/SunSHKM11",
+      "issue": "3",
+      "issued": {
+        "date-parts": [
+          [
+            2011
+          ]
+        ]
+      },
+      "page": "341-354",
+      "title": "G-STAR: geometric sTAteless routing for 3-d wireless sensor networks",
+      "type": "article-journal",
+      "volume": "9"
+    },
+    {
+      "DOI": "10.1007/s10707-010-0115-2",
+      "URL": "http://dx.doi.org/10.1007/s10707-010-0115-2",
+      "author": [
+        {
+          "family": "Chen",
+          "given": "Haiquan"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Sun",
+          "given": "Min-Te"
+        },
+        {
+          "family": "Zimmermann",
+          "given": "Roger"
+        }
+      ],
+      "container-title": "GeoInformatica",
+      "id": "DBLP:journals/geoinformatica/ChenKSZ11",
+      "issue": "3",
+      "issued": {
+        "date-parts": [
+          [
+            2011
+          ]
+        ]
+      },
+      "page": "541-569",
+      "title": "The partial sequenced route query with traveling rules in road networks",
+      "type": "article-journal",
+      "volume": "15"
+    },
+    {
+      "DOI": "10.1016/j.jnca.2010.04.012",
+      "URL": "http://dx.doi.org/10.1016/j.jnca.2010.04.012",
+      "author": [
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Sakai",
+          "given": "Kazuya"
+        },
+        {
+          "family": "Sun",
+          "given": "Min-Te"
+        }
+      ],
+      "container-title": "J. Network and Computer Applications",
+      "id": "DBLP:journals/jnca/KuSS11",
+      "issue": "3",
+      "issued": {
+        "date-parts": [
+          [
+            2011
+          ]
+        ]
+      },
+      "page": "914-924",
+      "title": "The optimal k-covering tag deployment for rFID-based localization",
+      "type": "article-journal",
+      "volume": "34"
+    },
+    {
+      "DOI": "10.1109/TMC.2010.244",
+      "URL": "http://doi.ieeecomputersociety.org/10.1109/TMC.2010.244",
+      "author": [
+        {
+          "family": "Sakai",
+          "given": "Kazuya"
+        },
+        {
+          "family": "Huang",
+          "given": "Scott C.-H."
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Sun",
+          "given": "Min-Te"
+        },
+        {
+          "family": "Cheng",
+          "given": "Xiuzhen"
+        }
+      ],
+      "container-title": "IEEE Trans. Mob. Comput.",
+      "id": "DBLP:journals/tmc/SakaiHKSC11",
+      "issue": "10",
+      "issued": {
+        "date-parts": [
+          [
+            2011
+          ]
+        ]
+      },
+      "page": "1388-1402",
+      "title": "Timer-based CDS construction in wireless ad hoc networks",
+      "type": "article-journal",
+      "volume": "10"
+    },
+    {
+      "DOI": "10.1109/CLUSTER.2011.11",
+      "URL": "http://dx.doi.org/10.1109/CLUSTER.2011.11",
+      "author": [
+        {
+          "family": "Yu",
+          "given": "Weikuan"
+        },
+        {
+          "family": "Wu",
+          "given": "K. John"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Xu",
+          "given": "Cong"
+        },
+        {
+          "family": "Gao",
+          "given": "Juan"
+        }
+      ],
+      "container-title": "2011 IEEE international conference on cluster computing (cLUSTER), austin, tX, uSA, september 26-30, 2011",
+      "id": "DBLP:conf/cluster/YuWKXG11",
+      "issued": {
+        "date-parts": [
+          [
+            2011
+          ]
+        ]
+      },
+      "page": "17-25",
+      "title": "BMF: bitmapped mass fingerprinting for fast protein identification",
+      "type": "paper-conference"
+    },
+    {
+      "DOI": "10.1109/GLOCOM.2011.6134032",
+      "URL": "http://dx.doi.org/10.1109/GLOCOM.2011.6134032",
+      "author": [
+        {
+          "family": "Xiang",
+          "given": "Minda"
+        },
+        {
+          "family": "Chen",
+          "given": "Yu"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Su",
+          "given": "Zhou"
+        }
+      ],
+      "container-title": "Proceedings of the global communications conference, GLOBECOM 2011, 5-9 december 2011, houston, texas, USA",
+      "id": "DBLP:conf/globecom/XiangCKS11",
+      "issued": {
+        "date-parts": [
+          [
+            2011
+          ]
+        ]
+      },
+      "page": "1-6",
+      "title": "Mitigating dDoS attacks using protection nodes in mobile ad hoc networks",
+      "type": "paper-conference"
+    },
+    {
+      "DOI": "10.1109/ICDE.2011.5767944",
+      "URL": "http://dx.doi.org/10.1109/ICDE.2011.5767944",
+      "author": [
+        {
+          "family": "Hsueh",
+          "given": "Yu-Ling"
+        },
+        {
+          "family": "Zimmermann",
+          "given": "Roger"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Jin",
+          "given": "Yifan"
+        }
+      ],
+      "container-title": "Proceedings of the 27th international conference on data engineering, ICDE 2011, april 11-16, 2011, hannover, germany",
+      "id": "DBLP:conf/icde/HsuehZKJ11",
+      "issued": {
+        "date-parts": [
+          [
+            2011
+          ]
+        ]
+      },
+      "page": "1316-1319",
+      "title": "SkyEngine: Efficient skyline search engine for continuous skyline computations",
+      "title-short": "SkyEngine",
+      "type": "paper-conference"
+    },
+    {
+      "DOI": "10.1145/1989323.1989409",
+      "URL": "http://doi.acm.org/10.1145/1989323.1989409",
+      "author": [
+        {
+          "family": "Yang",
+          "given": "Mohan"
+        },
+        {
+          "family": "Wang",
+          "given": "Haixun"
+        },
+        {
+          "family": "Chen",
+          "given": "Haiquan"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        }
+      ],
+      "container-title": "Proceedings of the ACM SIGMOD international conference on management of data, SIGMOD 2011, athens, greece, june 12-16, 2011",
+      "id": "DBLP:conf/sigmod/YangWCK11",
+      "issued": {
+        "date-parts": [
+          [
+            2011
+          ]
+        ]
+      },
+      "page": "817-828",
+      "title": "Querying uncertain data with aggregate constraints",
+      "type": "paper-conference"
+    },
+    {
+      "DOI": "10.1007/s11390-010-9334-0",
+      "URL": "http://dx.doi.org/10.1007/s11390-010-9334-0",
+      "author": [
+        {
+          "family": "Hsueh",
+          "given": "Yu-Ling"
+        },
+        {
+          "family": "Zimmermann",
+          "given": "Roger"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        }
+      ],
+      "container-title": "J. Comput. Sci. Technol.",
+      "id": "DBLP:journals/jcst/HsuehZK10",
+      "issue": "3",
+      "issued": {
+        "date-parts": [
+          [
+            2010
+          ]
+        ]
+      },
+      "page": "415-430",
+      "title": "Efficient location updates for continuous queries over moving objects",
+      "type": "article-journal",
+      "volume": "25"
+    },
+    {
+      "DOI": "10.1145/1869790.1869839",
+      "URL": "http://doi.acm.org/10.1145/1869790.1869839",
+      "author": [
+        {
+          "family": "Hu",
+          "given": "Ling"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Bakiras",
+          "given": "Spiridon"
+        },
+        {
+          "family": "Shahabi",
+          "given": "Cyrus"
+        }
+      ],
+      "container-title": "18th ACM SIGSPATIAL international symposium on advances in geographic information systems, ACM-GIS 2010, november 3-5, 2010, san jose, cA, uSA, proceedings",
+      "id": "DBLP:conf/gis/HuKBS10",
+      "issued": {
+        "date-parts": [
+          [
+            2010
+          ]
+        ]
+      },
+      "page": "350-359",
+      "title": "Verifying spatial queries using voronoi neighbors",
+      "type": "paper-conference"
+    },
+    {
+      "DOI": "10.1145/1869790.1869885",
+      "URL": "http://doi.acm.org/10.1145/1869790.1869885",
+      "author": [
+        {
+          "family": "Wang",
+          "given": "Chih-Jye"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Hu",
+          "given": "Ling"
+        },
+        {
+          "family": "Shahabi",
+          "given": "Cyrus"
+        }
+      ],
+      "container-title": "18th ACM SIGSPATIAL international symposium on advances in geographic information systems, ACM-GIS 2010, november 3-5, 2010, san jose, cA, uSA, proceedings",
+      "id": "DBLP:conf/gis/WangKHS10",
+      "issued": {
+        "date-parts": [
+          [
+            2010
+          ]
+        ]
+      },
+      "page": "536-537",
+      "title": "INTACT: a spatial query integrity assurance framework for location-based services",
+      "type": "paper-conference"
+    },
+    {
+      "DOI": "10.1109/ICC.2010.5502417",
+      "URL": "http://dx.doi.org/10.1109/ICC.2010.5502417",
+      "author": [
+        {
+          "family": "Feng",
+          "given": "Jun"
+        },
+        {
+          "family": "Chen",
+          "given": "Yu"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Su",
+          "given": "Zhou"
+        }
+      ],
+      "container-title": "Proceedings of IEEE international conference on communications, ICC 2010, cape town, south africa, 23-27 may 2010",
+      "id": "DBLP:conf/icc/FengCKS10",
+      "issued": {
+        "date-parts": [
+          [
+            2010
+          ]
+        ]
+      },
+      "page": "1-6",
+      "title": "D-DOG: securing sensitive data in distributed storage space by data division and out-of-order keystream generation",
+      "type": "paper-conference"
+    },
+    {
+      "DOI": "10.1109/ICDEW.2010.5452733",
+      "URL": "http://dx.doi.org/10.1109/ICDEW.2010.5452733",
+      "author": [
+        {
+          "family": "Chen",
+          "given": "Haiquan"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Wang",
+          "given": "Haixun"
+        }
+      ],
+      "container-title": "Workshops proceedings of the 26th international conference on data engineering, ICDE 2010, march 1-6, 2010, long beach, california, USA",
+      "id": "DBLP:conf/icde/ChenKW10",
+      "issued": {
+        "date-parts": [
+          [
+            2010
+          ]
+        ]
+      },
+      "page": "128-135",
+      "title": "Cleansing uncertain databases leveraging aggregate constraints",
+      "type": "paper-conference"
+    },
+    {
+      "DOI": "10.1109/ICPPW.2010.42",
+      "URL": "http://dx.doi.org/10.1109/ICPPW.2010.42",
+      "author": [
+        {
+          "family": "Feng",
+          "given": "Jun"
+        },
+        {
+          "family": "Chen",
+          "given": "Yu"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Liu",
+          "given": "Pu"
+        }
+      ],
+      "container-title": "39th international conference on parallel processing, ICPP workshops 2010, san diego, california, uSA, 13-16 september 2010",
+      "id": "DBLP:conf/icppw/FengCKL10",
+      "issued": {
+        "date-parts": [
+          [
+            2010
+          ]
+        ]
+      },
+      "page": "251-258",
+      "title": "Analysis of integrity vulnerabilities and a non-repudiation protocol for cloud data storage platforms",
+      "type": "paper-conference"
+    },
+    {
+      "DOI": "10.1109/MDM.2010.40",
+      "URL": "http://dx.doi.org/10.1109/MDM.2010.40",
+      "author": [
+        {
+          "family": "Bao",
+          "given": "Jie"
+        },
+        {
+          "family": "Chow",
+          "given": "Chi-Yin"
+        },
+        {
+          "family": "Mokbel",
+          "given": "Mohamed F."
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        }
+      ],
+      "container-title": "Eleventh international conference on mobile data management, MDM 2010, kanas city, missouri, uSA, 23-26 may 2010",
+      "id": "DBLP:conf/mdm/BaoCMK10",
+      "issued": {
+        "date-parts": [
+          [
+            2010
+          ]
+        ]
+      },
+      "page": "115-124",
+      "title": "Efficient evaluation of k-range nearest neighbor queries in road networks",
+      "type": "paper-conference"
+    },
+    {
+      "DOI": "10.1145/1807167.1807176",
+      "URL": "http://doi.acm.org/10.1145/1807167.1807176",
+      "author": [
+        {
+          "family": "Chen",
+          "given": "Haiquan"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Wang",
+          "given": "Haixun"
+        },
+        {
+          "family": "Sun",
+          "given": "Min-Te"
+        }
+      ],
+      "container-title": "Proceedings of the ACM SIGMOD international conference on management of data, SIGMOD 2010, indianapolis, indiana, uSA, june 6-10, 2010",
+      "id": "DBLP:conf/sigmod/ChenKWS10",
+      "issued": {
+        "date-parts": [
+          [
+            2010
+          ]
+        ]
+      },
+      "page": "51-62",
+      "title": "Leveraging spatio-temporal redundancy for RFID data cleansing",
+      "type": "paper-conference"
+    },
+    {
+      "DOI": "10.1504/IJICS.2009.028810",
+      "URL": "http://dx.doi.org/10.1504/IJICS.2009.028810",
+      "author": [
+        {
+          "family": "Hu",
+          "given": "Hongbing"
+        },
+        {
+          "family": "Chen",
+          "given": "Yu"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Su",
+          "given": "Zhou"
+        },
+        {
+          "family": "Chen",
+          "given": "Chung-Han"
+        }
+      ],
+      "container-title": "IJICS",
+      "id": "DBLP:journals/ijics/HuCKSC09",
+      "issue": "2",
+      "issued": {
+        "date-parts": [
+          [
+            2009
+          ]
+        ]
+      },
+      "page": "132-149",
+      "title": "Weighted trust evaluation-based malicious node detection for wireless sensor networks",
+      "type": "article-journal",
+      "volume": "3"
+    },
+    {
+      "DOI": "10.1007/s11277-008-9608-9",
+      "URL": "http://dx.doi.org/10.1007/s11277-008-9608-9",
+      "author": [
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Chen",
+          "given": "Yu"
+        },
+        {
+          "family": "Zimmermann",
+          "given": "Roger"
+        }
+      ],
+      "container-title": "Wireless Personal Communications",
+      "id": "DBLP:journals/wpc/KuCZ09",
+      "issue": "1",
+      "issued": {
+        "date-parts": [
+          [
+            2009
+          ]
+        ]
+      },
+      "page": "53-65",
+      "title": "Privacy protected spatial query processing for advanced location based services",
+      "type": "article-journal",
+      "volume": "51"
+    },
+    {
+      "DOI": "10.1007/978-3-642-00887-0_7",
+      "URL": "http://dx.doi.org/10.1007/978-3-642-00887-0_7",
+      "author": [
+        {
+          "family": "Hsueh",
+          "given": "Yu-Ling"
+        },
+        {
+          "family": "Zimmermann",
+          "given": "Roger"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        }
+      ],
+      "container-title": "Database systems for advanced applications, 14th international conference, DASFAA 2009, brisbane, australia, april 21-23, 2009. proceedings",
+      "id": "DBLP:conf/dasfaa/HsuehZK09",
+      "issued": {
+        "date-parts": [
+          [
+            2009
+          ]
+        ]
+      },
+      "page": "71-76",
+      "title": "Adaptive safe regions for continuous spatial queries over moving objects",
+      "type": "paper-conference"
+    },
+    {
+      "DOI": "10.1145/1653771.1653872",
+      "URL": "http://doi.acm.org/10.1145/1653771.1653872",
+      "author": [
+        {
+          "family": "Bao",
+          "given": "Jie"
+        },
+        {
+          "family": "Chen",
+          "given": "Haiquan"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        }
+      ],
+      "container-title": "17th ACM SIGSPATIAL international symposium on advances in geographic information systems, ACM-GIS 2009, november 4-6, 2009, seattle, washington, uSA, proceedings",
+      "id": "DBLP:conf/gis/BaoCK09",
+      "issued": {
+        "date-parts": [
+          [
+            2009
+          ]
+        ]
+      },
+      "page": "552-553",
+      "title": "PROS: a peer-to-peer system for location privacy protection on road networks",
+      "type": "paper-conference"
+    },
+    {
+      "DOI": "10.1109/ICC.2009.5199026",
+      "URL": "http://dx.doi.org/10.1109/ICC.2009.5199026",
+      "author": [
+        {
+          "family": "Sakai",
+          "given": "Kazuya"
+        },
+        {
+          "family": "Sun",
+          "given": "Min-Te"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        }
+      ],
+      "container-title": "Proceedings of IEEE international conference on communications, ICC 2009, dresden, germany, 14-18 june 2009",
+      "id": "DBLP:conf/icc/SakaiSK09",
+      "issued": {
+        "date-parts": [
+          [
+            2009
+          ]
+        ]
+      },
+      "page": "1-6",
+      "title": "Fast connected dominating set construction in mobile ad hoc networks",
+      "type": "paper-conference"
+    },
+    {
+      "DOI": "10.1109/ICDE.2009.48",
+      "URL": "http://dx.doi.org/10.1109/ICDE.2009.48",
+      "author": [
+        {
+          "family": "Hsueh",
+          "given": "Yu-Ling"
+        },
+        {
+          "family": "Zimmermann",
+          "given": "Roger"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Wang",
+          "given": "Haojun"
+        },
+        {
+          "family": "Wang",
+          "given": "Chung-Dau"
+        }
+      ],
+      "container-title": "Proceedings of the 25th international conference on data engineering, ICDE 2009, march 29 2009 - april 2 2009, shanghai, china",
+      "id": "DBLP:conf/icde/HsuehZKWW09",
+      "issued": {
+        "date-parts": [
+          [
+            2009
+          ]
+        ]
+      },
+      "page": "1515-1518",
+      "title": "PLUS: A message-efficient prototype for location-based applications",
+      "type": "paper-conference"
+    },
+    {
+      "DOI": "10.1109/ISM.2009.42",
+      "URL": "http://dx.doi.org/10.1109/ISM.2009.42",
+      "author": [
+        {
+          "family": "Sakai",
+          "given": "Kazuya"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Zimmermann",
+          "given": "Roger"
+        }
+      ],
+      "container-title": "ISM 2009, 11th IEEE international symposium on multimedia, san diego, california, uSA, december 14-16, 2009",
+      "id": "DBLP:conf/ism/SakaiKZ09",
+      "issued": {
+        "date-parts": [
+          [
+            2009
+          ]
+        ]
+      },
+      "page": "400-405",
+      "title": "Group-server scheduling for continuous multimedia streaming in mANETs",
+      "type": "paper-conference"
+    },
+    {
+      "DOI": "10.1007/978-3-642-02982-0_8",
+      "URL": "http://dx.doi.org/10.1007/978-3-642-02982-0_8",
+      "author": [
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Hu",
+          "given": "Ling"
+        },
+        {
+          "family": "Shahabi",
+          "given": "Cyrus"
+        },
+        {
+          "family": "Wang",
+          "given": "Haixun"
+        }
+      ],
+      "container-title": "Advances in spatial and temporal databases, 11th international symposium, SSTD 2009, aalborg, denmark, july 8-10, 2009, proceedings",
+      "id": "DBLP:conf/ssd/KuHSW09",
+      "issued": {
+        "date-parts": [
+          [
+            2009
+          ]
+        ]
+      },
+      "page": "80-97",
+      "title": "Query integrity assurance of location-based services accessing outsourced spatial databases",
+      "type": "paper-conference"
+    },
+    {
+      "URL": "http://www.igi-global.com/Bookstore/Chapter.aspx?TitleId=10897",
+      "author": [
+        {
+          "family": "Chen",
+          "given": "Yu"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        }
+      ],
+      "container-title": "Encyclopedia of data warehousing and mining, second edition (4 volumes)",
+      "id": "DBLP:reference/dataware/ChenK09",
+      "issued": {
+        "date-parts": [
+          [
+            2009
+          ]
+        ]
+      },
+      "page": "701-708",
+      "title": "Distributed data aggregation technology for real-time dDoS attacks detection",
+      "type": "chapter"
+    },
+    {
+      "DOI": "10.1016/j.pmcj.2008.08.001",
+      "URL": "http://dx.doi.org/10.1016/j.pmcj.2008.08.001",
+      "author": [
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Zimmermann",
+          "given": "Roger"
+        }
+      ],
+      "container-title": "Pervasive and Mobile Computing",
+      "id": "DBLP:journals/percom/KuZ08",
+      "issue": "5",
+      "issued": {
+        "date-parts": [
+          [
+            2008
+          ]
+        ]
+      },
+      "page": "775-788",
+      "title": "Nearest neighbor queries with peer-to-peer data sharing in mobile environments",
+      "type": "article-journal",
+      "volume": "4"
+    },
+    {
+      "DOI": "10.1109/TMC.2007.70791",
+      "URL": "http://doi.ieeecomputersociety.org/10.1109/TMC.2007.70791",
+      "author": [
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Zimmermann",
+          "given": "Roger"
+        },
+        {
+          "family": "Wang",
+          "given": "Haixun"
+        }
+      ],
+      "container-title": "IEEE Trans. Mob. Comput.",
+      "id": "DBLP:journals/tmc/KuZW08",
+      "issue": "6",
+      "issued": {
+        "date-parts": [
+          [
+            2008
+          ]
+        ]
+      },
+      "page": "778-791",
+      "title": "Location-based spatial query processing in wireless broadcast environments",
+      "type": "article-journal",
+      "volume": "7"
+    },
+    {
+      "DOI": "10.1007/978-3-540-85654-2_38",
+      "URL": "http://dx.doi.org/10.1007/978-3-540-85654-2_38",
+      "author": [
+        {
+          "family": "Hsueh",
+          "given": "Yu-Ling"
+        },
+        {
+          "family": "Zimmermann",
+          "given": "Roger"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        }
+      ],
+      "container-title": "Database and expert systems applications, 19th international conference, DEXA 2008, turin, italy, september 1-5, 2008. proceedings",
+      "id": "DBLP:conf/dexa/HsuehZK08",
+      "issued": {
+        "date-parts": [
+          [
+            2008
+          ]
+        ]
+      },
+      "page": "419-433",
+      "title": "Efficient updates for continuous skyline computations",
+      "type": "paper-conference"
+    },
+    {
+      "DOI": "10.1145/1463434.1463448",
+      "URL": "http://doi.acm.org/10.1145/1463434.1463448",
+      "author": [
+        {
+          "family": "Chen",
+          "given": "Haiquan"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Sun",
+          "given": "Min-Te"
+        },
+        {
+          "family": "Zimmermann",
+          "given": "Roger"
+        }
+      ],
+      "container-title": "16th ACM SIGSPATIAL international symposium on advances in geographic information systems, ACM-GIS 2008, november 5-7, 2008, irvine, california, uSA, proceedings",
+      "id": "DBLP:conf/gis/ChenKSZ08",
+      "issued": {
+        "date-parts": [
+          [
+            2008
+          ]
+        ]
+      },
+      "page": "10",
+      "title": "The multi-rule partial sequenced route query",
+      "type": "paper-conference"
+    },
+    {
+      "URL": "http://dl.acm.org/citation.cfm?id=1400549.1400686",
+      "author": [
+        {
+          "family": "Atakli",
+          "given": "Idris M."
+        },
+        {
+          "family": "Hu",
+          "given": "Hongbing"
+        },
+        {
+          "family": "Chen",
+          "given": "Yu"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Su",
+          "given": "Zhou"
+        }
+      ],
+      "container-title": "Proceedings of the 2008 spring simulation multiconference, springSim 2008, ottawa, canada, april 14-17, 2008",
+      "id": "DBLP:conf/springsim/AtakliHCKS08",
+      "issued": {
+        "date-parts": [
+          [
+            2008
+          ]
+        ]
+      },
+      "page": "836-843",
+      "title": "Malicious node detection in wireless sensor networks using weighted trust evaluation",
+      "type": "paper-conference"
+    },
+    {
+      "DOI": "10.1109/SUTC.2008.56",
+      "URL": "http://dx.doi.org/10.1109/SUTC.2008.56",
+      "author": [
+        {
+          "family": "Li",
+          "given": "Po-Yi"
+        },
+        {
+          "family": "Peng",
+          "given": "Wen-Chih"
+        },
+        {
+          "family": "Wang",
+          "given": "Tsung-Wei"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Xu",
+          "given": "Jianliang"
+        },
+        {
+          "family": "Jr.",
+          "given": "John A. Hamilton"
+        }
+      ],
+      "container-title": "IEEE international conference on sensor networks, ubiquitous, and trustworthy computing (SUTC 2008), 11-13 june 2008, taichung, taiwan",
+      "id": "DBLP:conf/sutc/LiPWKXH08",
+      "issued": {
+        "date-parts": [
+          [
+            2008
+          ]
+        ]
+      },
+      "page": "90-97",
+      "title": "A cloaking algorithm based on spatial networks for location privacy",
+      "type": "paper-conference"
+    },
+    {
+      "DOI": "10.1007/978-3-540-88582-5_16",
+      "URL": "http://dx.doi.org/10.1007/978-3-540-88582-5_16",
+      "author": [
+        {
+          "family": "Sakai",
+          "given": "Kazuya"
+        },
+        {
+          "family": "Sun",
+          "given": "Min-Te"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Okada",
+          "given": "Hiromi"
+        }
+      ],
+      "container-title": "Wireless algorithms, systems, and applications, third international conference, WASA 2008, dallas, tX, uSA, october 26-28, 2008. proceedings",
+      "id": "DBLP:conf/wasa/SakaiSKO08",
+      "issued": {
+        "date-parts": [
+          [
+            2008
+          ]
+        ]
+      },
+      "page": "141-153",
+      "title": "Maintaining CDS in mobile ad hoc networks",
+      "type": "paper-conference"
+    },
+    {
+      "DOI": "10.1109/TPDS.2007.1111",
+      "URL": "http://doi.ieeecomputersociety.org/10.1109/TPDS.2007.1111",
+      "author": [
+        {
+          "family": "Chen",
+          "given": "Yu"
+        },
+        {
+          "family": "Hwang",
+          "given": "Kai"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        }
+      ],
+      "container-title": "IEEE Trans. Parallel Distrib. Syst.",
+      "id": "DBLP:journals/tpds/ChenHK07",
+      "issue": "12",
+      "issued": {
+        "date-parts": [
+          [
+            2007
+          ]
+        ]
+      },
+      "page": "1649-1662",
+      "title": "Collaborative detection of dDoS attacks over multiple network domains",
+      "type": "article-journal",
+      "volume": "18"
+    },
+    {
+      "DOI": "10.1145/1341012.1341060",
+      "URL": "http://doi.acm.org/10.1145/1341012.1341060",
+      "author": [
+        {
+          "family": "Hsueh",
+          "given": "Yu-Ling"
+        },
+        {
+          "family": "Zimmermann",
+          "given": "Roger"
+        },
+        {
+          "family": "Wang",
+          "given": "Haojun"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        }
+      ],
+      "container-title": "15th ACM international symposium on geographic information systems, ACM-GIS 2007, november 7-9, 2007, seattle, washington, uSA, proceedings",
+      "id": "DBLP:conf/gis/HsuehZWK07",
+      "issued": {
+        "date-parts": [
+          [
+            2007
+          ]
+        ]
+      },
+      "page": "37",
+      "title": "Partition-based lazy updates for continuous queries over moving objects",
+      "type": "paper-conference"
+    },
+    {
+      "DOI": "10.1109/ICDEW.2007.4400994",
+      "URL": "http://dx.doi.org/10.1109/ICDEW.2007.4400994",
+      "author": [
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Zimmermann",
+          "given": "Roger"
+        },
+        {
+          "family": "Peng",
+          "given": "Wen-Chih"
+        },
+        {
+          "family": "Shroff",
+          "given": "Sushama"
+        }
+      ],
+      "container-title": "Proceedings of the 23rd international conference on data engineering workshops, ICDE 2007, 15-20 april 2007, istanbul, turkey",
+      "id": "DBLP:conf/icde/KuZPS07",
+      "issued": {
+        "date-parts": [
+          [
+            2007
+          ]
+        ]
+      },
+      "page": "215-220",
+      "title": "Privacy protected query processing on spatial networks",
+      "type": "paper-conference"
+    },
+    {
+      "DOI": "10.1109/ICDE.2007.369010",
+      "URL": "http://dx.doi.org/10.1109/ICDE.2007.369010",
+      "author": [
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Zimmermann",
+          "given": "Roger"
+        },
+        {
+          "family": "Wang",
+          "given": "Haixun"
+        }
+      ],
+      "container-title": "Proceedings of the 23rd international conference on data engineering, ICDE 2007, the marmara hotel, istanbul, turkey, april 15-20, 2007",
+      "id": "DBLP:conf/icde/KuZW07",
+      "issued": {
+        "date-parts": [
+          [
+            2007
+          ]
+        ]
+      },
+      "page": "1355-1359",
+      "title": "Location-based spatial queries with data sharing in wireless broadcast environments",
+      "type": "paper-conference"
+    },
+    {
+      "URL": "https://www.usenix.org/conference/deter-2007/distributed-change-point-detection-ddos-attacks-experimental-results-deter",
+      "author": [
+        {
+          "family": "Chen",
+          "given": "Yu"
+        },
+        {
+          "family": "Hwang",
+          "given": "Kai"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        }
+      ],
+      "container-title": "DETER community workshop on cyber security experimentation and test 2007, boston, ma, uSA, august 6-7, 2007",
+      "id": "DBLP:conf/uss/ChenHK07",
+      "issued": {
+        "date-parts": [
+          [
+            2007
+          ]
+        ]
+      },
+      "title": "Distributed change-point detection of dDoS attacks: Experimental results on DETER testbed",
+      "title-short": "Distributed change-point detection of dDoS attacks",
+      "type": "paper-conference"
+    },
+    {
+      "DOI": "10.1109/MIC.2006.92",
+      "URL": "http://doi.ieeecomputersociety.org/10.1109/MIC.2006.92",
+      "author": [
+        {
+          "family": "Zimmermann",
+          "given": "Roger"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Wang",
+          "given": "Haojun"
+        },
+        {
+          "family": "Zand",
+          "given": "Amir"
+        },
+        {
+          "family": "Bardet",
+          "given": "Jean-Pierre"
+        }
+      ],
+      "container-title": "IEEE Internet Computing",
+      "id": "DBLP:journals/internet/ZimmermannKWZB06",
+      "issue": "5",
+      "issued": {
+        "date-parts": [
+          [
+            2006
+          ]
+        ]
+      },
+      "page": "26-33",
+      "title": "A distributed geotechnical information management and exchange architecture",
+      "type": "article-journal",
+      "volume": "10"
+    },
+    {
+      "DOI": "10.1007/11827405_64",
+      "URL": "http://dx.doi.org/10.1007/11827405_64",
+      "author": [
+        {
+          "family": "Wang",
+          "given": "Haojun"
+        },
+        {
+          "family": "Zimmermann",
+          "given": "Roger"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        }
+      ],
+      "container-title": "Database and expert systems applications, 17th international conference, DEXA 2006, kraków, poland, september 4-8, 2006, proceedings",
+      "id": "DBLP:conf/dexa/WangZK06",
+      "issued": {
+        "date-parts": [
+          [
+            2006
+          ]
+        ]
+      },
+      "page": "655-665",
+      "title": "Distributed continuous range query processing on moving objects",
+      "type": "paper-conference"
+    },
+    {
+      "DOI": "10.1109/ICDEW.2006.72",
+      "URL": "http://dx.doi.org/10.1109/ICDEW.2006.72",
+      "author": [
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Zimmermann",
+          "given": "Roger"
+        }
+      ],
+      "container-title": "Proceedings of the 22nd international conference on data engineering workshops, ICDE 2006, 3-7 april 2006, atlanta, gA, USA",
+      "id": "DBLP:conf/icde/KuZ06",
+      "issued": {
+        "date-parts": [
+          [
+            2006
+          ]
+        ]
+      },
+      "page": "140",
+      "title": "Location-based spatial queries with data sharing in mobile environments",
+      "type": "paper-conference"
+    },
+    {
+      "DOI": "10.1109/ICDE.2006.89",
+      "URL": "http://dx.doi.org/10.1109/ICDE.2006.89",
+      "author": [
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Zimmermann",
+          "given": "Roger"
+        },
+        {
+          "family": "Wan",
+          "given": "Chi-Ngai"
+        },
+        {
+          "family": "Wang",
+          "given": "Haojun"
+        }
+      ],
+      "container-title": "Proceedings of the 22nd international conference on data engineering, ICDE 2006, 3-8 april 2006, atlanta, gA, USA",
+      "id": "DBLP:conf/icde/KuZWW06",
+      "issued": {
+        "date-parts": [
+          [
+            2006
+          ]
+        ]
+      },
+      "page": "160",
+      "title": "MAPLE: A mobile scalable P2P nearest neighbor query system for location-based services",
+      "type": "paper-conference"
+    },
+    {
+      "DOI": "10.1109/MDM.2006.37",
+      "URL": "http://dx.doi.org/10.1109/MDM.2006.37",
+      "author": [
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Zimmermann",
+          "given": "Roger"
+        },
+        {
+          "family": "Wang",
+          "given": "Haojun"
+        },
+        {
+          "family": "Nguyen",
+          "given": "Trung"
+        }
+      ],
+      "container-title": "7th international conference on mobile data management (MDM 2006), nara, japan, may 9-13, 2006",
+      "id": "DBLP:conf/mdm/KuZWN06",
+      "issued": {
+        "date-parts": [
+          [
+            2006
+          ]
+        ]
+      },
+      "page": "50",
+      "title": "ANNATTO: adaptive nearest neighbor queries in travel time networks",
+      "type": "paper-conference"
+    },
+    {
+      "DOI": "10.1145/1097064.1097094",
+      "URL": "http://doi.acm.org/10.1145/1097064.1097094",
+      "author": [
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Zimmermann",
+          "given": "Roger"
+        },
+        {
+          "family": "Wang",
+          "given": "Haojun"
+        },
+        {
+          "family": "Wan",
+          "given": "Chi-Ngai"
+        }
+      ],
+      "container-title": "13th ACM international workshop on geographic information systems, ACM-GIS 2005, november 4-5, 2005, bremen, germany, proceedings",
+      "id": "DBLP:conf/gis/KuZWW05",
+      "issued": {
+        "date-parts": [
+          [
+            2005
+          ]
+        ]
+      },
+      "page": "210-219",
+      "title": "Adaptive nearest neighbor queries in travel time networks",
+      "type": "paper-conference"
+    },
+    {
+      "DOI": "10.1145/1097064.1097097",
+      "URL": "http://doi.acm.org/10.1145/1097064.1097097",
+      "author": [
+        {
+          "family": "Wang",
+          "given": "Haojun"
+        },
+        {
+          "family": "Zimmermann",
+          "given": "Roger"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        }
+      ],
+      "container-title": "13th ACM international workshop on geographic information systems, ACM-GIS 2005, november 4-5, 2005, bremen, germany, proceedings",
+      "id": "DBLP:conf/gis/WangZK05",
+      "issued": {
+        "date-parts": [
+          [
+            2005
+          ]
+        ]
+      },
+      "page": "230-239",
+      "title": "ASPEN: an adaptive spatial peer-to-peer network",
+      "type": "paper-conference"
+    },
+    {
+      "DOI": "10.1109/CMPSAC.2004.1342682",
+      "URL": "http://dx.doi.org/10.1109/CMPSAC.2004.1342682",
+      "author": [
+        {
+          "family": "Zimmermann",
+          "given": "Roger"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Wang",
+          "given": "Haojun"
+        }
+      ],
+      "container-title": "28th international computer software and applications conference (COMPSAC 2004), design and assessment of trustworthy software-based systems, 27-30 september 2004, hong kong, china, workshop papers",
+      "id": "DBLP:conf/compsac/ZimmermannKW04",
+      "issued": {
+        "date-parts": [
+          [
+            2004
+          ]
+        ]
+      },
+      "page": "82-85",
+      "title": "Spatial data query support in peer-to-peer systems",
+      "type": "paper-conference"
+    },
+    {
+      "DOI": "10.1145/1032222.1032249",
+      "URL": "http://doi.acm.org/10.1145/1032222.1032249",
+      "author": [
+        {
+          "family": "Zimmermann",
+          "given": "Roger"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Chu",
+          "given": "Wei-Cheng"
+        }
+      ],
+      "container-title": "12th ACM international workshop on geographic information systems, ACM-GIS 2004, november 12-13, 2004, washington, dC, uSA, proceedings",
+      "id": "DBLP:conf/gis/ZimmermannKC04",
+      "issued": {
+        "date-parts": [
+          [
+            2004
+          ]
+        ]
+      },
+      "page": "176-183",
+      "title": "Efficient query routing in distributed spatial databases",
+      "type": "paper-conference"
+    },
+    {
+      "author": [
+        {
+          "family": "Zimmermann",
+          "given": "Roger"
+        },
+        {
+          "family": "Fu",
+          "given": "Kun"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        }
+      ],
+      "container-title": "ICEIS (1)",
+      "id": "DBLP:conf/iceis/ZimmermannFK03",
+      "issued": {
+        "date-parts": [
+          [
+            2003
+          ]
+        ]
+      },
+      "page": "156-168",
+      "title": "Design of a large scale data stream recorder",
+      "type": "paper-conference"
+    },
+    {
+      "DOI": "10.1109/JSEN.2015.2474711",
+      "ISSN": "1530-437X",
+      "author": [
+        {
+          "family": "Sakai",
+          "given": "K."
+        },
+        {
+          "family": "Sun",
+          "given": "M. T."
+        },
+        {
+          "family": "Ku",
+          "given": "W. S."
+        },
+        {
+          "family": "Lai",
+          "given": "T. H."
+        },
+        {
+          "family": "Vasilakos",
+          "given": "A. V."
+        }
+      ],
+      "container-title": "IEEE Sensors Journal",
+      "id": "7229251",
+      "issue": "12",
+      "issued": {
+        "date-parts": [
+          [
+            2015,
+            12
+          ]
+        ]
+      },
+      "keyword": "computational geometry;wireless sensor networks;2D network;RES;Voronoi diagram;multiple k-coverage problem;optimal k-connectivity deployment pattern;optimal k-coverage deployment pattern;range elimination scheme;regular tessellation;wireless sensor network application;Computer science;Electronic mail;Robot sensing systems;Shape;Wireless communication;Wireless sensor networks;Coverage;Optimal deployment pattern;Wireless sensor network topology;optimal deployment pattern;wireless sensor network topology",
+      "page": "7273-7283",
+      "title": "A framework for the optimal k -coverage deployment patterns of wireless sensors",
+      "type": "article-journal",
+      "volume": "15"
+    },
+    {
+      "DOI": "10.1109/TC.2015.2423671",
+      "ISSN": "0018-9340",
+      "author": [
+        {
+          "family": "Sakai",
+          "given": "K."
+        },
+        {
+          "family": "Sun",
+          "given": "M. T."
+        },
+        {
+          "family": "Ku",
+          "given": "W. S."
+        },
+        {
+          "family": "Lai",
+          "given": "T. H."
+        }
+      ],
+      "container-title": "IEEE Transactions on Computers",
+      "id": "7087362",
+      "issue": "2",
+      "issued": {
+        "date-parts": [
+          [
+            2016,
+            2
+          ]
+        ]
+      },
+      "keyword": "cryptographic protocols;data privacy;jamming;radiofrequency identification;RF activator;RFID applications;RFRJ;TSD;correlation attack;eavesdropping;ghost-and-leech attack;impractical physical layer assumptions;non-encryption-based singulation protocols;passive tags;physical layer techniques;privacy protection;private tag access protocols;random flipping random jamming;random guessing attack;tags privacy;trusted shield device;wireless jamming;Computer architecture;Encoding;Jamming;Physical layer;Radio frequency;Radiofrequency identification;Receivers;RFID security;coding;privacy",
+      "page": "409-421",
+      "title": "A novel coding scheme for secure communications in distributed rFID systems",
+      "type": "article-journal",
+      "volume": "65"
+    },
+    {
+      "DOI": "10.1145/2720022",
+      "ISSN": "1553-3077",
+      "URL": "http://doi.acm.org/10.1145/2720022",
+      "author": [
+        {
+          "family": "Zhang",
+          "given": "Ji"
+        },
+        {
+          "family": "Jiang",
+          "given": "Xunfei"
+        },
+        {
+          "family": "Qin",
+          "given": "Xiao"
+        },
+        {
+          "family": "Ku",
+          "given": "Wei-Shinn"
+        },
+        {
+          "family": "Alghamdi",
+          "given": "Mohammed I."
+        }
+      ],
+      "container-title": "Trans. Storage",
+      "id": "Zhang:2015:FFC:2809503.2720022",
+      "issue": "3",
+      "issued": {
+        "date-parts": [
+          [
+            2015,
+            7
+          ]
+        ]
+      },
+      "keyword": "File systems, context aware, multiview",
+      "page": "11:1-11:28",
+      "publisher": "ACM",
+      "publisher-place": "New York, NY, USA",
+      "title": "Frog: A framework for context-based file systems",
+      "title-short": "Frog",
+      "type": "article-journal",
+      "volume": "11"
+    },
+    {
+      "DOI": "10.1109/TPDS.2015.2472016",
+      "ISSN": "1045-9219",
+      "author": [
+        {
+          "family": "Zhang",
+          "given": "J."
+        },
+        {
+          "family": "Jiang",
+          "given": "X."
+        },
+        {
+          "family": "Ku",
+          "given": "W. S."
+        },
+        {
+          "family": "Qin",
+          "given": "X."
+        }
+      ],
+      "container-title": "IEEE Transactions on Parallel and Distributed Systems",
+      "id": "7219441",
+      "issue": "99",
+      "issued": {
+        "date-parts": [
+          [
+            2015,
+            12
+          ]
+        ]
+      },
+      "keyword": "Algorithm design and analysis;Complexity theory;Indexes;Merging;Partitioning algorithms;Peer-to-peer computing;Query processing;Big data;MapReduce;Skyline query",
+      "page": "1-1",
+      "title": "Efficient parallel skyline evaluation using mapReduce",
+      "type": "article-journal",
+      "volume": "PP"
+    }
+  ]
+}

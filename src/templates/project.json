@@ -1,0 +1,33 @@
+{
+  "title": "Project",
+  "links": [
+    {
+      "name": "Home",
+      "url": "./"
+    },
+    {
+      "name": "People",
+      "url": "people"
+    },
+    {
+      "active": "active",
+      "name": "Project",
+      "url": "project"
+    },
+    {
+      "name": "Publication",
+      "url": "publication"
+    },
+    {
+      "name": "Contact",
+      "url": "contact"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Indoor Spatial Data Management",
+      "picture": "indoor-spatial-data-management.jpg",
+      "summary": "Today most people spend a significant portion of their time daily in indoor spaces such as subway systems, office buildings, shopping malls, convention centers, and many other structures. In addition, indoor spaces are becoming increasingly large and complex. For instance, the New York City Subway has 468 stations and contains 232 miles of routes. In 2013, the subway system delivered over 1.7 billion rides, averaging approximately 5.5 million rides on weekdays. Therefore, users will have more and more demand for launching spatial queries for finding friends or points of interest in indoor spaces. However, existing spatial query evaluation techniques for outdoor environments (either based on Euclidean distance or network distance) cannot be applied in indoor spaces because these techniques assume that user locations can be acquired from GPS signals or cellular positioning, but the assumption does not hold in covered indoor spaces. Furthermore, indoor spaces are usually modeled differently from outdoor spaces. In indoor environments, user movements are enabled or constrained by entities and topologies such as doors, walls, and hallways. We study various indoor spatial data management challenges in this project."
+    }
+  ]
+}

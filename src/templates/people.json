@@ -1,0 +1,159 @@
+{
+  "title": "People",
+  "links": [
+    {
+      "name": "Home",
+      "url": "./"
+    },
+    {
+      "active": "active",
+      "name": "People",
+      "url": "people"
+    },
+    {
+      "name": "Project",
+      "url": "project"
+    },
+    {
+      "name": "Publication",
+      "url": "publication"
+    },
+    {
+      "name": "Contact",
+      "url": "contact"
+    }
+  ],
+  "faculties": [
+    {
+      "basics": {
+        "name": "Wei-Shinn Ku",
+        "picture": "../img/weishinn-ku.jpg",
+        "website": "http://www.eng.auburn.edu/~weishinn/"
+      },
+      "work": [
+        {
+          "company": "Auburn University",
+          "position": "Associate Professor",
+          "summary": "His research interests include data management systems, data analytics, geographic information systems, mobile computing, and cybersecurity.  He is a senior member of the IEEE."
+        }],
+      "education": [
+        {
+          "institution": "University of Southern California",
+          "area": "Computer Science",
+          "studyType": "Ph.D",
+          "endDate": "2007"
+        }, {
+          "institution": "University of Southern California",
+          "area": "Electrical Engineering",
+          "studyType": "M.S.",
+          "endDate": "2006"
+        }, {
+          "institution": "University of Southern California",
+          "area": "Computer Science",
+          "studyType": "M.S.",
+          "endDate": "2003"
+        }]
+    }
+  ],
+  "phds": [
+    {
+      "basics": {
+        "name": "Zhitao Gong",
+        "picture": "../img/zhitao-gong.png",
+        "website": "http://gongzhitaao.org"
+      },
+      "education": [
+        {
+          "institution": "Auburn University",
+          "area": "Computer Science",
+          "studyType": "Ph.D",
+          "endDate": "2017?"
+        }, {
+          "institution": "Nanjing University",
+          "area": "Computer Science",
+          "studyType": "B.S.",
+          "endDate": "2012"
+        }
+      ]
+    },
+    {
+      "basics": {
+        "name": "Wenlu Wang",
+        "picture": "../img/wenlu-wang.jpg",
+        "website": ""
+      },
+      "education": [
+        {
+          "institution": "Auburn University",
+          "area": "Computer Science",
+          "studyType": "Ph.D.",
+          "endDate": "2018?"
+        }, {
+          "institution": "New York University",
+          "area": "Computer Science",
+          "studyType": "M.S.",
+          "endDate": "2014"
+        },{
+          "institution": "Beihang University",
+          "area": "Computer Science and Engineering",
+          "studyType": "B.S.",
+          "endDate": "2012"
+        }
+      ]
+    }
+  ],
+  "alumini": [
+    {
+      "basics": {
+        "name": "Liang Tang",
+        "picture": "../img/liang-tang.jpg",
+        "website": "http://www.auburn.edu/~lzt0006/"
+      },
+      "work": [
+        {
+          "company": "Linkedin",
+          "position": "Software Engineer"
+        }
+      ],
+      "education": [
+        {
+          "institution": "Auburn University",
+          "area": "Computer Science",
+          "studyType": "Ph.D",
+          "endDate": "2016"
+        }, {
+          "institution": "Xi'an Jiaotong University",
+          "area": "Computer Science",
+          "studyType": "B.S.",
+          "endDate": "2011"
+        }
+      ]
+    },
+    {
+      "basics": {
+        "name": "Swagata Mukherjee",
+        "picture": "../img/swagata-mukherjee.jpg",
+        "website": "https://www.linkedin.com/in/mukherjeeswagata"
+      },
+      "work": [
+        {
+          "company": "Equifax",
+          "position": "Automation Engineer"
+        }
+      ],
+      "education": [
+        {
+          "institution": "Auburn University",
+          "area": "Computer Science",
+          "studyType": "M.S.",
+          "endDate": "2016"
+        }, {
+          "institution": "DIATM",
+          "area": "Electrical Engineering",
+          "studyType": "B.S.",
+          "endDate": "2013"
+        }
+      ]
+    }
+  ]
+}
