@@ -1,0 +1,26 @@
+{
+  "title": "Home",
+  "links": [
+    {
+      "name": "Home",
+      "url": "./"
+    },
+    {
+      "name": "People",
+      "url": "people"
+    },
+    {
+      "name": "Project",
+      "url": "project"
+    },
+    {
+      "name": "Publication",
+      "url": "publication"
+    },
+    {
+      "active": "active",
+      "name": "Contact",
+      "url": "contact"
+    }
+  ]
+}

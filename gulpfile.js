@@ -1,18 +1,20 @@
 var path = require('path');
-var gulp = require('gulp');
 
 var merge = require('merge2');
+var changed = require('gulp-changed');
 
+var gulp = require('gulp');
+var concat = require('gulp-continuous-concat');
+var filter = require('gulp-filter');
 var flatmap = require('gulp-flatmap');
 var htmlmin = require('gulp-htmlmin');
 var mustache = require('gulp-mustache');
+var plumber = require('gulp-plumber');
 var postcss = require('gulp-postcss');
 var rename = require('gulp-rename');
-var watch = require('gulp-watch');
 var sass = require('gulp-sass');
-var concat = require('gulp-continuous-concat');
-var filter = require('gulp-filter');
 var uglify = require('gulp-uglify');
+var watch = require('gulp-watch');
 
 var cssnano = require('cssnano');
 
@@ -41,6 +43,7 @@ gulp.task('browser-sync', function() {
 gulp.task('mustache', function() {
   return gulp.src('./src/templates/*.mustache')
     .pipe(watch('./src/templates/*.mustache', {verbose: true}))
+    .pipe(changed(build))
     .pipe(flatmap(function(stream, file) {
       var dirname = path.dirname(file.path);
       var stem = path.basename(file.path, '.mustache');
@@ -83,6 +86,7 @@ gulp.task('postcss', function() {
         .pipe(concat('vender.css'));
 
   return merge([css_stream, scss_stream])
+    .pipe(changed(path.join(build, 'css')))
     .pipe(concat('style.css'))
     .pipe(postcss(processors))
     .pipe(gulp.dest(path.join(build, 'css')))
@@ -96,15 +100,19 @@ gulp.task('postcss', function() {
 gulp.task('static', function() {
   var font_stream = gulp.src('./src/fonts/*')
         .pipe(watch('./src/fonts/*'))
+        .pipe(changed(path.join(build, 'fonts')))
         .pipe(gulp.dest(path.join(build, 'fonts')));
   var img_stream = gulp.src('./src/img/*')
         .pipe(watch('./src/img/*'))
+        .pipe(changed(path.join(build, 'img')))
         .pipe(gulp.dest(path.join(build, 'img')));
   var js_stream = gulp.src('./src/js/*')
         .pipe(watch('./src/js/*'))
+        .pipe(changed(path.join(build, 'js')))
         .pipe(gulp.dest(path.join(build, 'js')));
   var bib_stream = gulp.src('./src/templates/*.bib')
         .pipe(watch('./src/templates/*.bib'))
+        .pipe(changed(path.join(build, 'publication')))
         .pipe(gulp.dest(path.join(build, 'publication')));
 
   return merge([font_stream, img_stream, js_stream, bib_stream])

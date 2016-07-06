@@ -55,6 +55,28 @@
         }]
     }
   ],
+  "masters": [
+    {
+      "basics": {
+        "name": "Ya-Chi Kuo",
+        "picture": "../img/yachi-kuo.jpg",
+        "website": "http://www.linkedin.com/in/ya-chi-kuo-a9b73910b"
+      },
+      "education": [
+        {
+          "institution": "Auburn University",
+          "area": "Computer Science",
+          "studyType": "M.S.",
+          "endDate": "2017?"
+        }, {
+          "institution": "National Chung Hsing University",
+          "area": "Applied Mathematics",
+          "studyType": "B.S.",
+          "endDate": "2013"
+        }
+      ]
+    }
+  ],
   "phds": [
     {
       "basics": {
@@ -100,6 +122,51 @@
           "endDate": "2012"
         }
       ]
+    },
+    {
+      "basics": {
+        "name": "Ting Shen",
+        "picture": "../img/ting-shen.jpg",
+        "website": "https://github.com/stgogogo/"
+      },
+      "education": [
+        {
+          "institution": "Auburn University",
+          "area": "Computer Science and Software Engineering",
+          "studyType": "Ph.D.",
+          "endDate": "2018?"
+        }, {
+          "institution": "Beihang University",
+          "area": "Computer Science and Engineering",
+          "studyType": "B.S.",
+          "endDate": "2012"
+        }
+      ]
+    },
+    {
+      "basics": {
+        "name": "Wei Li",
+        "picture": "../img/wei-li.jpg",
+        "website": ""
+      },
+      "education": [
+        {
+          "institution": "Auburn University",
+          "area": "Computer Science",
+          "studyType": "Ph.D.",
+          "endDate": "2017?"
+        }, {
+          "institution": "Huazhong University of Science and Technology",
+          "area": "Computer Science",
+          "studyType": "M.S.",
+          "endDate": "2007"
+        }, {
+          "institution": "Huazhong University of Science and Technology",
+          "area": "Computer Science",
+          "studyType": "B.S.",
+          "endDate": "2003"
+        }
+      ]
     }
   ],
   "alumini": [
@@ -131,6 +198,79 @@
     },
     {
       "basics": {
+        "name": "Yusheng Ding",
+        "picture": "../img/yusheng-ding.jpg",
+        "website": "http://formatmemory.github.io/"
+      },
+      "education": [
+        {
+          "institution": "Auburn University",
+          "area": "Computer Science and Software Engineering",
+          "studyType": "M.S.",
+          "endDate": "2016"
+        }, {
+          "institution": "Chongqing University of Posts and Telecommunications",
+          "area": "Software Engineering",
+          "studyType": "B.S.",
+          "endDate": "2013"
+        }
+      ]
+    },
+    {
+      "basics": {
+        "name": "Jeff Wang",
+        "picture": "../img/jeff-wang.jpg",
+        "website": "http://codenuggets.com"
+      },
+      "work": [{
+        "company": "Amazon Web Services",
+        "position": "Software Development Engineer",
+        "website": "http://aws.amazon.com",
+        "startDate": "2016-04-25"
+      }, {
+        "company": "Auburn University",
+        "position": "Graduate Teaching Assistant",
+        "website": "http://eng.auburn.edu/comp",
+        "startDate": "2012",
+        "endDate": "2015"
+      }, {
+        "company": "Ultra-Electronics ProLogic",
+        "position": "Intern Software Engineer",
+        "website": "http://www.ultra-prologic.com/",
+        "startDate": "2008",
+        "endDate": "2009"
+      }, {
+        "company": "Intergraph Process Power and Marine",
+        "position": "Intern Software Engineer",
+        "website": "http://ppm.intergraph.com",
+        "startDate": "2004",
+        "endDate": "2006"
+      }],
+      "volunteer": [{
+        "organization": "The Big Event",
+        "position": "Volunteer",
+        "website": "https://auburn.collegiatelink.net/organization/bigevent"
+      }, {
+        "organization": "The Church of Highlands",
+        "position": "Volunteer",
+        "website": "https://www.churchofthehighlands.com/"
+      }],
+      "education": [{
+        "institution": "Auburn University",
+        "area": "Computer Science",
+        "studyType": "Ph.D.",
+        "endDate": "2016",
+        "gpa": "4.00"
+      }, {
+        "institution": "Auburn University",
+        "area": "Computer Science",
+        "studyType": "B.S.",
+        "endDate": "2008",
+        "gpa": "3.57"
+      }]
+    },
+    {
+      "basics": {
         "name": "Swagata Mukherjee",
         "picture": "../img/swagata-mukherjee.jpg",
         "website": "https://www.linkedin.com/in/mukherjeeswagata"
@@ -152,6 +292,83 @@
           "area": "Electrical Engineering",
           "studyType": "B.S.",
           "endDate": "2013"
+        }
+      ]
+    },
+    {
+      "basics": {
+        "name": "Ji Zhang",
+        "picture": "../img/ji-zhang.jpg",
+        "website": "https://sites.google.com/site/jizhangfall2010/home"
+      },
+      "work": [
+        {
+          "company": "Doxpop",
+          "position": "Senior Software Engineer"
+        }
+      ],
+      "education": [
+        {
+          "institution": "Auburn University",
+          "area": "Computer Science",
+          "studyType": "Ph.D",
+          "endDate": "2013"
+        }, {
+          "institution": "Huazhong University of Science and Technology",
+          "area": "Computer Science",
+          "studyType": "M.S.",
+          "endDate": "2007"
+        }, {
+          "institution": "Huazhong University of Science and Technology",
+          "area": "Computer Science",
+          "studyType": "B.S.",
+          "endDate": "2004"
+        }
+      ]
+    },
+    {
+      "basics": {
+        "name": "Kazuya Sakai",
+        "picture": "../img/kazuya-sakai.jpg",
+        "website": "http://www.comp.sd.tmu.ac.jp/kazuyasakai/"
+      },
+      "work": [
+        {
+          "company": "Tokyo Metropolitan University",
+          "position": "Assistnt Professor"
+        }
+      ],
+      "education": [
+        {
+          "institution": "Ohio State University",
+          "area": "Computer Science",
+          "studyType": "Ph.D",
+          "endDate": "2013"
+        }, {
+          "institution": "Auburn University",
+          "area": "Computer Science",
+          "studyType": "Master",
+          "endDate": "2010"
+        }
+      ]
+    },
+    {
+      "basics": {
+        "name": "Jiao Yu",
+        "picture": "../img/jiao-yu.jpg",
+        "website": "https://www.linkedin.com/in/jiao-yu-0ba31149"
+      },
+      "education": [
+        {
+          "institution": "Auburn University",
+          "area": "Computer Science",
+          "studyType": "M.S.",
+          "endDate": "2013"
+        }, {
+          "institution": "Shandong University",
+          "area": "Electrical Engineering",
+          "studyType": "B.S.",
+          "endDate": "2010"
         }
       ]
     }

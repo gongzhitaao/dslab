@@ -57,6 +57,45 @@
 
       <div class="row">
         <div class="col-sm-12 col-md-offset-2 col-md-8">
+          <h1>Masters</h1>
+        </div>
+      </div>
+
+      {{#masters}}
+        <div class="row">
+          <div class="col-sm-12 col-md-offset-2 col-md-8">
+            <div class="media">
+              <div class="pull-left">
+                <img class="media-object img-rounded" src="{{basics.picture}}" alt="{{basics.name}}">
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading"><a href="{{basics.website}}">{{basics.name}}</a></h4>
+                <table class="table">
+                  {{#education}}
+                    <div class="row" >
+                      <div class="col-xs-3 col-sm-1">
+                        {{endDate}}
+                      </div>
+                      <div class="col-xs-3 col-sm-1">
+                        {{studyType}}
+                      </div>
+                      <div class="col-xs-12 col-sm-4">
+                        {{area}}
+                      </div>
+                      <div class="col-xs-12 col-sm-5">
+                        {{institution}}
+                      </div>
+                    </div>
+                  {{/education}}
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      {{/masters}}
+
+      <div class="row">
+        <div class="col-sm-12 col-md-offset-2 col-md-8">
           <h1>Ph.D.</h1>
         </div>
       </div>
@@ -109,9 +148,11 @@
               </div>
               <div class="media-body">
                 <h4 class="media-heading"><a href="{{basics.website}}">{{basics.name}}</a></h4>
-                <div>
+                <div class="work">
                   {{#work}}
-                    <em>{{position}}</em> {{company}}
+                    <li>
+                      <em>{{position}}</em> {{company}}
+                    </li>
                   {{/work}}
                 </div>
                 {{#education}}

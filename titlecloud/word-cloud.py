@@ -37,14 +37,15 @@ mask.paste(icon, icon)
 mask = np.array(mask)
 
 cloud_generator = wc.WordCloud(mask=mask,
-                               background_color='white',
+                               background_color=None,
                                # max_font_size=300,
+                               mode='RGBA',
                                font_path='mplus-1m-regular-webfont.ttf',
                                stopwords=stopwords)
 title_cloud = cloud_generator.generate(text)
 title_cloud.to_file('title0.png')
 
-plt.imshow(title_cloud)
-plt.axis('off')
-plt.show()
-plt.savefig("title1.png",bbox_inches='tight')
+# plt.imshow(title_cloud)
+# plt.axis('off')
+# plt.show()
+# plt.savefig("title1.png",bbox_inches='tight')
