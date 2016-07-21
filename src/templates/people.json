@@ -33,8 +33,7 @@
       "work": [
         {
           "company": "Auburn University",
-          "position": "Associate Professor",
-          "summary": "His research interests include data management systems, data analytics, geographic information systems, mobile computing, and cybersecurity.  He is a senior member of the IEEE."
+          "position": "Associate Professor and Graduate Program Director"
         }],
       "education": [
         {
@@ -52,6 +51,10 @@
           "area": "Computer Science",
           "studyType": "M.S.",
           "endDate": "2003"
+        }, {
+          "institution": "National Taiwan Normal University",
+          "area": "Information and Computer Education",
+          "studyType": "B.C.S"
         }]
     }
   ],
@@ -73,6 +76,21 @@
           "area": "Applied Mathematics",
           "studyType": "B.S.",
           "endDate": "2013"
+        }
+      ]
+    },
+    {
+      "basics": {
+        "name": "Jack Wei",
+        "picture": "",
+        "website": ""
+      },
+      "education": [
+        {
+          "institution": "Auburn University",
+          "area": "Computer Science",
+          "studyType": "M.S.",
+          "endDate": "2017?"
         }
       ]
     }
@@ -154,7 +172,7 @@
           "institution": "Auburn University",
           "area": "Computer Science",
           "studyType": "Ph.D.",
-          "endDate": "2017?"
+          "endDate": "2018?"
         }, {
           "institution": "Huazhong University of Science and Technology",
           "area": "Computer Science",
@@ -169,7 +187,7 @@
       ]
     }
   ],
-  "alumini": [
+  "alumni": [
     {
       "basics": {
         "name": "Liang Tang",
@@ -198,54 +216,18 @@
     },
     {
       "basics": {
-        "name": "Yusheng Ding",
-        "picture": "../img/yusheng-ding.jpg",
-        "website": "http://formatmemory.github.io/"
-      },
-      "education": [
-        {
-          "institution": "Auburn University",
-          "area": "Computer Science and Software Engineering",
-          "studyType": "M.S.",
-          "endDate": "2016"
-        }, {
-          "institution": "Chongqing University of Posts and Telecommunications",
-          "area": "Software Engineering",
-          "studyType": "B.S.",
-          "endDate": "2013"
-        }
-      ]
-    },
-    {
-      "basics": {
         "name": "Jeff Wang",
         "picture": "../img/jeff-wang.jpg",
         "website": "http://codenuggets.com"
       },
-      "work": [{
-        "company": "Amazon Web Services",
-        "position": "Software Development Engineer",
-        "website": "http://aws.amazon.com",
-        "startDate": "2016-04-25"
-      }, {
-        "company": "Auburn University",
-        "position": "Graduate Teaching Assistant",
-        "website": "http://eng.auburn.edu/comp",
-        "startDate": "2012",
-        "endDate": "2015"
-      }, {
-        "company": "Ultra-Electronics ProLogic",
-        "position": "Intern Software Engineer",
-        "website": "http://www.ultra-prologic.com/",
-        "startDate": "2008",
-        "endDate": "2009"
-      }, {
-        "company": "Intergraph Process Power and Marine",
-        "position": "Intern Software Engineer",
-        "website": "http://ppm.intergraph.com",
-        "startDate": "2004",
-        "endDate": "2006"
-      }],
+      "work": [
+        {
+          "company": "Amazon Web Services",
+          "position": "Software Development Engineer",
+          "website": "http://aws.amazon.com",
+          "startDate": "2016-04-25"
+        }
+      ],
       "volunteer": [{
         "organization": "The Big Event",
         "position": "Volunteer",
@@ -268,32 +250,6 @@
         "endDate": "2008",
         "gpa": "3.57"
       }]
-    },
-    {
-      "basics": {
-        "name": "Swagata Mukherjee",
-        "picture": "../img/swagata-mukherjee.jpg",
-        "website": "https://www.linkedin.com/in/mukherjeeswagata"
-      },
-      "work": [
-        {
-          "company": "Equifax",
-          "position": "Automation Engineer"
-        }
-      ],
-      "education": [
-        {
-          "institution": "Auburn University",
-          "area": "Computer Science",
-          "studyType": "M.S.",
-          "endDate": "2016"
-        }, {
-          "institution": "DIATM",
-          "area": "Electrical Engineering",
-          "studyType": "B.S.",
-          "endDate": "2013"
-        }
-      ]
     },
     {
       "basics": {
@@ -354,10 +310,102 @@
     },
     {
       "basics": {
+        "name": "Jie Bao",
+        "picture": "../img/jie-bao.jpg",
+        "website": "http://www-users.cs.umn.edu/~baojie/"
+      },
+      "education": [
+        {
+          "institution": "University of Minnesota at Twin Cities",
+          "area": "Computer Science",
+          "studyType": "Ph.D"
+        }, {
+          "institution": "Auburn University",
+          "area": "Computer Science",
+          "studyType": "M.S.",
+          "endDate": "2009"
+        }
+      ]
+    },
+    {
+      "basics": {
+        "name": "Yusheng Ding",
+        "picture": "../img/yusheng-ding.jpg",
+        "website": "http://formatmemory.github.io/"
+      },
+      "education": [
+        {
+          "institution": "Auburn University",
+          "area": "Computer Science",
+          "studyType": "M.S.",
+          "endDate": "2016"
+        }, {
+          "institution": "Chongqing University of Posts and Telecommunications",
+          "area": "Software Engineering",
+          "studyType": "B.S.",
+          "endDate": "2013"
+        }
+      ]
+    },
+    {
+      "basics": {
+        "name": "Swagata Mukherjee",
+        "picture": "../img/swagata-mukherjee.jpg",
+        "website": "https://www.linkedin.com/in/mukherjeeswagata"
+      },
+      "work": [
+        {
+          "company": "Equifax",
+          "position": "Automation Engineer"
+        }
+      ],
+      "education": [
+        {
+          "institution": "Auburn University",
+          "area": "Computer Science",
+          "studyType": "M.S.",
+          "endDate": "2016"
+        }, {
+          "institution": "DIATM",
+          "area": "Electrical Engineering",
+          "studyType": "B.S.",
+          "endDate": "2013"
+        }
+      ]
+    },
+    {
+      "basics": {
+        "name": "Saranya Sadasivam",
+        "picture": "../img/sadasivam-saranya.png",
+        "website": "https://www.linkedin.com/in/saranya-sadasivam-81082222"
+      },
+      "work": [
+        {
+          "company": "Optym",
+          "position": "Database Engineer"
+        }
+      ],
+      "education": [
+        {
+          "institution": "Auburn University",
+          "area": "Computer Science and Software Engineering",
+          "studyType": "M.S.",
+          "endDate": "2016"
+        }
+      ]
+    },
+    {
+      "basics": {
         "name": "Jiao Yu",
         "picture": "../img/jiao-yu.jpg",
         "website": "https://www.linkedin.com/in/jiao-yu-0ba31149"
       },
+      "work": [
+        {
+          "company": "Google",
+          "position": "Software Engineer"
+        }
+      ],
       "education": [
         {
           "institution": "Auburn University",
