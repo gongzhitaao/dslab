@@ -54,7 +54,8 @@
         }, {
           "institution": "National Taiwan Normal University",
           "area": "Information and Computer Education",
-          "studyType": "B.C.S"
+          "studyType": "B.C.S",
+          "endDate": "1999"
         }]
     }
   ],
@@ -150,7 +151,7 @@
       "education": [
         {
           "institution": "Auburn University",
-          "area": "Computer Science and Software Engineering",
+          "area": "Computer Science",
           "studyType": "Ph.D.",
           "endDate": "2018?"
         }, {
@@ -223,32 +224,34 @@
       "work": [
         {
           "company": "Amazon Web Services",
-          "position": "Software Development Engineer",
+          "position": "Software Engineer",
           "website": "http://aws.amazon.com",
           "startDate": "2016-04-25"
         }
       ],
-      "volunteer": [{
-        "organization": "The Big Event",
-        "position": "Volunteer",
-        "website": "https://auburn.collegiatelink.net/organization/bigevent"
-      }, {
-        "organization": "The Church of Highlands",
-        "position": "Volunteer",
-        "website": "https://www.churchofthehighlands.com/"
+      "volunteer": [
+        {
+          "organization": "The Big Event",
+          "position": "Volunteer",
+          "website": "https://auburn.collegiatelink.net/organization/bigevent"
+        }, {
+          "organization": "The Church of Highlands",
+          "position": "Volunteer",
+          "website": "https://www.churchofthehighlands.com/"
       }],
-      "education": [{
-        "institution": "Auburn University",
-        "area": "Computer Science",
-        "studyType": "Ph.D.",
-        "endDate": "2016",
-        "gpa": "4.00"
-      }, {
-        "institution": "Auburn University",
-        "area": "Computer Science",
-        "studyType": "B.S.",
-        "endDate": "2008",
-        "gpa": "3.57"
+      "education": [
+        {
+          "institution": "Auburn University",
+          "area": "Computer Science",
+          "studyType": "Ph.D.",
+          "endDate": "2015",
+          "gpa": "4.00"
+        }, {
+          "institution": "Auburn University",
+          "area": "Computer Science",
+          "studyType": "B.S.",
+          "endDate": "2008",
+          "gpa": "3.57"
       }]
     },
     {
@@ -284,66 +287,32 @@
     },
     {
       "basics": {
-        "name": "Kazuya Sakai",
-        "picture": "../img/kazuya-sakai.jpg",
-        "website": "http://www.comp.sd.tmu.ac.jp/kazuyasakai/"
+        "name": "Haiquan Chen",
+        "picture": "../img/haiquan-chen.jpg",
+        "website": "http://mypages.valdosta.edu/hachen/"
       },
       "work": [
         {
-          "company": "Tokyo Metropolitan University",
-          "position": "Assistnt Professor"
+          "company": "Valdosta State University",
+          "position": "Associate Professor"
         }
       ],
       "education": [
         {
-          "institution": "Ohio State University",
+          "institution": "Auburn University",
           "area": "Computer Science",
           "studyType": "Ph.D",
-          "endDate": "2013"
+          "endDate": "2011"
         }, {
-          "institution": "Auburn University",
+          "institution": "Xian Jiaotong University",
           "area": "Computer Science",
-          "studyType": "Master",
-          "endDate": "2010"
-        }
-      ]
-    },
-    {
-      "basics": {
-        "name": "Jie Bao",
-        "picture": "../img/jie-bao.jpg",
-        "website": "http://www-users.cs.umn.edu/~baojie/"
-      },
-      "education": [
-        {
-          "institution": "University of Minnesota at Twin Cities",
-          "area": "Computer Science",
-          "studyType": "Ph.D"
+          "studyType": "M.E.",
+          "endDate": "2006"
         }, {
-          "institution": "Auburn University",
+          "institution": "Xian Jiaotong University",
           "area": "Computer Science",
-          "studyType": "M.S.",
-          "endDate": "2009"
-        }
-      ]
-    },
-    {
-      "basics": {
-        "name": "Yusheng Ding",
-        "picture": "../img/yusheng-ding.jpg",
-        "website": "http://formatmemory.github.io/"
-      },
-      "education": [
-        {
-          "institution": "Auburn University",
-          "area": "Computer Science",
-          "studyType": "M.S.",
-          "endDate": "2016"
-        }, {
-          "institution": "Chongqing University of Posts and Telecommunications",
-          "area": "Software Engineering",
-          "studyType": "B.S.",
-          "endDate": "2013"
+          "studyType": "B.E.",
+          "endDate": "2003"
         }
       ]
     },
@@ -375,6 +344,26 @@
     },
     {
       "basics": {
+        "name": "Yusheng Ding",
+        "picture": "../img/yusheng-ding.jpg",
+        "website": "http://formatmemory.github.io/"
+      },
+      "education": [
+        {
+          "institution": "Auburn University",
+          "area": "Computer Science",
+          "studyType": "M.S.",
+          "endDate": "2016"
+        }, {
+          "institution": "Chongqing University of Posts and Telecommunications",
+          "area": "Software Engineering",
+          "studyType": "B.S.",
+          "endDate": "2013"
+        }
+      ]
+    },
+    {
+      "basics": {
         "name": "Saranya Sadasivam",
         "picture": "../img/sadasivam-saranya.png",
         "website": "https://www.linkedin.com/in/saranya-sadasivam-81082222"
@@ -388,9 +377,15 @@
       "education": [
         {
           "institution": "Auburn University",
-          "area": "Computer Science and Software Engineering",
+          "area": "Computer Science",
           "studyType": "M.S.",
-          "endDate": "2016"
+          "endDate": "2015"
+        },
+        {
+          "institution": "University of Pune",
+          "area": "Electronics and Telecommunication engineering",
+          "studyType": "B.S.",
+          "endDate": "2010"
         }
       ]
     },
@@ -417,6 +412,72 @@
           "area": "Electrical Engineering",
           "studyType": "B.S.",
           "endDate": "2010"
+        }
+      ]
+    },
+    {
+      "basics": {
+        "name": "Kazuya Sakai",
+        "picture": "../img/kazuya-sakai.jpg",
+        "website": "http://www.comp.sd.tmu.ac.jp/kazuyasakai/"
+      },
+      "work": [
+        {
+          "company": "Tokyo Metropolitan University",
+          "position": "Assistnt Professor"
+        }
+      ],
+      "education": [
+        {
+          "institution": "Ohio State University",
+          "area": "Computer Science",
+          "studyType": "Ph.D",
+          "endDate": "2013"
+        }, {
+          "institution": "Auburn University",
+          "area": "Computer Science",
+          "studyType": "M.S.",
+          "endDate": "2010"
+        }, {
+          "institution": "Kansai University",
+          "area": "Computer Science",
+          "studyType": "M.S.",
+          "endDate": "2007"
+        }, {
+          "institution": "Kansai University",
+          "area": "Computer Science",
+          "studyType": "B.S.",
+          "endDate": "2004"
+        }
+      ]
+    },
+    {
+      "basics": {
+        "name": "Jie Bao",
+        "picture": "../img/jie-bao.jpg",
+        "website": "http://www-users.cs.umn.edu/~baojie/"
+      },
+      "work": [
+        {
+          "company": "Microsoft Research Asia",
+          "position": "Associate Researcher"
+        }
+      ],
+      "education": [
+        {
+          "institution": "University of Minnesota at Twin Cities",
+          "area": "Computer Science",
+          "studyType": "Ph.D"
+        }, {
+          "institution": "Auburn University",
+          "area": "Computer Science",
+          "studyType": "M.S.",
+          "endDate": "2009"
+        }, {
+          "institution": "Zhejiang University",
+          "area": "Computer Science",
+          "studyType": "B.S.",
+          "endDate": "2007"
         }
       ]
     }
