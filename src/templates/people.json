@@ -82,8 +82,8 @@
     },
     {
       "basics": {
-        "name": "Jack Wei",
-        "picture": "",
+        "name": "Cheng-Chieh Wei",
+        "picture": "../img/chengchieh-wei.jpg",
         "website": ""
       },
       "education": [
@@ -92,6 +92,16 @@
           "area": "Computer Science",
           "studyType": "M.S.",
           "endDate": "2017?"
+        }, {
+          "institution": "National Chiao-Tung University",
+          "area": "Electrical and Computer Engineering",
+          "studyType": "M.S.",
+          "endDate": "2013"
+        }, {
+          "institution": "National Central University",
+          "area": "Electrical Engineering",
+          "studyType": "B.S.",
+          "endDate": "2010"
         }
       ]
     }
