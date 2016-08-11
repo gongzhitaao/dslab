@@ -450,12 +450,12 @@
           "endDate": "2010"
         }, {
           "institution": "Kansai University",
-          "area": "Computer Science",
+          "area": "Electronics Engineering",
           "studyType": "M.S.",
           "endDate": "2007"
         }, {
           "institution": "Kansai University",
-          "area": "Computer Science",
+          "area": "Electronics Engineering",
           "studyType": "B.S.",
           "endDate": "2004"
         }
@@ -477,7 +477,8 @@
         {
           "institution": "University of Minnesota at Twin Cities",
           "area": "Computer Science",
-          "studyType": "Ph.D"
+          "studyType": "Ph.D",
+          "endDate": "2014"
         }, {
           "institution": "Auburn University",
           "area": "Computer Science",
