@@ -15,6 +15,7 @@ var rename = require('gulp-rename');
 var sass = require('gulp-sass');
 var uglify = require('gulp-uglify');
 var watch = require('gulp-watch');
+var rsync = require('gulp-rsync');
 
 var cssnano = require('cssnano');
 
@@ -120,10 +121,25 @@ gulp.task('static', function() {
 });
 
 // --------------------------------------------------------------------
-// deploy
+// copy and deploy
 // --------------------------------------------------------------------
 
-gulp.task('deploy', function() {
+gulp.task('copy', function() {
   return gulp.src('./build/dslab/**/**')
     .pipe(gulp.dest(dist));
+});
+
+gulp.task('deploy', function() {
+  gulp.src(dist)
+    .pipe(rsync({
+      root: dist,
+      hostname: 'mallard',
+      destination: '/export/vol2/httpd/htdocs/academic/engineering/dslab',
+      incremental: true,
+      progress: true,
+      compress: true,
+      recursive: true,
+      update: true,
+      exclude: ['.git', '.gitignore', 'old']
+    }));
 });
