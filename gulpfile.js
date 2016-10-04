@@ -1,138 +1,161 @@
-var path = require('path');
+'use strict';
 
-var merge = require('merge2');
-var changed = require('gulp-changed');
+const P = require('path');
+const F = require('fs');
+const D = require('del');
 
-var gulp = require('gulp');
-var concat = require('gulp-continuous-concat');
-var filter = require('gulp-filter');
-var flatmap = require('gulp-flatmap');
-var htmlmin = require('gulp-htmlmin');
-var mustache = require('gulp-mustache');
-var plumber = require('gulp-plumber');
-var postcss = require('gulp-postcss');
-var rename = require('gulp-rename');
-var sass = require('gulp-sass');
-var uglify = require('gulp-uglify');
-var watch = require('gulp-watch');
-var rsync = require('gulp-rsync');
+const merge = require('merge2');
+const glob = require('glob');
 
-var cssnano = require('cssnano');
+const $ = require('gulp');
+const $changed = require('gulp-changed');
+const $concat = require('gulp-concat');
+const $flatmap = require('gulp-flatmap');
+const $if = require('gulp-if');
+const $ignore = require('gulp-ignore');
+const $htmlmin = require('gulp-htmlmin');
+const $mustache = require('gulp-mustache');
+const $plumber = require('gulp-plumber');
+const $postcss = require('gulp-postcss');
+const $rename = require('gulp-rename');
+const $rsync = require('gulp-rsync');
+const $sass = require('gulp-sass');
+const $uglify = require('gulp-uglify');
 
-var browsersync = require('browser-sync').create();
+const cssnano = require('cssnano');
 
-var build = 'build/dslab';
-var dist = '../gh-pages';
+const browsersync = require('browser-sync').create();
 
-gulp.task('default', ['browser-sync', 'mustache', 'postcss', 'static']);
+const cfg = {
+  des: './build/dslab'
+};
+
+$.task('default', $.series(
+  () => D(['./build/dslab']), $.parallel(sync, watch)));
+
+function watch() {
+  $.watch('./src/pages/**/*', {ignoreInitial: false }, pages)
+    .on('change', browsersync.reload);
+  $.watch('./src/assets/css/*', {ignoreInitial: false }, styles)
+    .on('change', browsersync.reload);
+  $.watch('./src/assets/js/*', {ignoreInitial: false }, scripts)
+    .on('change', browsersync.reload);
+  $.watch(['./src/assets/img/*', './src/assets/fonts/*'],
+          {ignoreInitial: false }, misc)
+    .on('change', browsersync.reload);
+}
 
 // -------------------------------------------------------------------
 // browser-sync
 // -------------------------------------------------------------------
 
-gulp.task('browser-sync', function() {
+function sync() {
   browsersync.init({
-    server: {baseDir: './build'},
+    server: './build',
     port: 4000
   });
-});
+}
 
 // -------------------------------------------------------------------
-// Render html with mustache
+// Render pages with mustache
 // -------------------------------------------------------------------
 
-gulp.task('mustache', function() {
-  return gulp.src('./src/templates/*.mustache')
-    .pipe(watch('./src/templates/*.mustache', {verbose: true}))
-    .pipe(changed(build))
-    .pipe(flatmap(function(stream, file) {
-      var dirname = path.dirname(file.path);
-      var stem = path.basename(file.path, '.mustache');
+function pages() {
+  var cond = (
+    () => {
+      const cur = new Date();
+      var i, ret = {};
+      var deps = glob.sync('./src/pages/partials/*.mustache');
+      var t0 = null;
+      for (i = 0; i < deps.length; ++i)
+        t0 = Math.max(t0, F.statSync(deps[i]).mtime);
+      t0 = new Date(t0);
+      try {
+        var fd = F.openSync('./build', 'r');
+      } catch (e) {
+        fd = null;
+      }
+      var files = glob.sync('./src/pages/*.mustache');
+      for (i = 0; i < files.length; ++i) {
+        var k = P.basename(files[i], '.mustache');
+        var t1 = F.statSync(P.join('./src/pages', k + '.json')).mtime;
+        ret[k] = null === fd || cur - t0 < 1000 || cur - t1 < 1000;
+      }
+      return ret;
+    })();
+
+  console.log(cond);
+
+  return $.src('./src/pages/*.mustache')
+    .pipe($if((file) => !cond[P.basename(file.path, '.mustache')],
+            $changed(cfg.des)))
+    .pipe($flatmap(function(stream, file) {
+      console.log(file.path);
+      var dirname = P.dirname(file.path);
+      var stem = P.basename(file.path, P.extname(file.path));
       return stream
-        .pipe(mustache(path.join(dirname, stem + '.json')))
-        .pipe(rename({
+        .pipe($mustache(P.join(dirname, stem + '.json')))
+        .pipe($rename({
           dirname: ('index' == stem ? '' : stem),
           basename: 'index',
-          extname: '.html'
-        }));
-    }))
-    .pipe(htmlmin({
-      removeComments: true,
-      collapseWhitespace: true,
-      removeEmptyAttributes: true,
-      minifyJS: true,
-      minifyCSS: true
-    }))
-    .pipe(gulp.dest(build))
-    .pipe(browsersync.stream());
-});
+          extname: '.html'}))
+        .pipe($htmlmin({
+          removeComments: true,
+          collapseWhitespace: true,
+          removeEmptyAttributes: true,
+          minifyJS: true,
+          minifyCSS: true}));}))
+    .pipe($.dest(cfg.des));
+}
 
 // -------------------------------------------------------------------
-// Optimize CSS
+// Make assets
 // -------------------------------------------------------------------
 
-gulp.task('postcss', function() {
+function styles() {
   var processors = [
     cssnano({autoprefixer: {browsers: ['last 2 version'], add: true},
              discardComments: {removeAll: true}})
   ];
+  return $.src('./src/assets/css/*')
+        .pipe($changed('./build/dslab/css'))
+        .pipe($if(file => P.extname(file.path) === 'scss', $sass()))
+        .pipe($concat('style.css'))
+        .pipe($postcss(processors))
+        .pipe($.dest('./build/dslab/css'));
+}
 
-  var scss_stream = gulp.src('./src/css/*.scss')
-        .pipe(watch('./src/css/*.scss', {verbose: true}))
-        .pipe(sass())
-        .pipe(concat('custom.css'));
+function scripts() {
+  return $.src(['./src/assets/js/jquery.min.js',
+                './src/assets/js/bootstrap.min.js'])
+    .pipe($changed('./build/dslab/js'))
+    .pipe($concat('script.js'))
+    .pipe($.dest('./build/dslab/js'));
+}
 
-  var css_stream = gulp.src('./src/css/*.css')
-        .pipe(watch('./src/css/*.css', {verbose: true}))
-        .pipe(concat('vender.css'));
-
-  return merge([css_stream, scss_stream])
-    .pipe(changed(path.join(build, 'css')))
-    .pipe(concat('style.css'))
-    .pipe(postcss(processors))
-    .pipe(gulp.dest(path.join(build, 'css')))
-    .pipe(browsersync.stream());
-});
-
-// -------------------------------------------------------------------
-// Static assets
-// -------------------------------------------------------------------
-
-gulp.task('static', function() {
-  var font_stream = gulp.src('./src/fonts/*')
-        .pipe(watch('./src/fonts/*'))
-        .pipe(changed(path.join(build, 'fonts')))
-        .pipe(gulp.dest(path.join(build, 'fonts')));
-  var img_stream = gulp.src('./src/img/*')
-        .pipe(watch('./src/img/*'))
-        .pipe(changed(path.join(build, 'img')))
-        .pipe(gulp.dest(path.join(build, 'img')));
-  var js_stream = gulp.src('./src/js/*')
-        .pipe(watch('./src/js/*'))
-        .pipe(changed(path.join(build, 'js')))
-        .pipe(gulp.dest(path.join(build, 'js')));
-  var bib_stream = gulp.src('./src/templates/*.bib')
-        .pipe(watch('./src/templates/*.bib'))
-        .pipe(changed(path.join(build, 'publication')))
-        .pipe(gulp.dest(path.join(build, 'publication')));
-
-  return merge([font_stream, img_stream, js_stream, bib_stream])
-    .pipe(browsersync.stream());
-});
+function misc() {
+  var s0 = $.src(['./src/assets/**/*',
+                  '!./src/assets/css/*', '!./src/assets/js/*'])
+        .pipe($.dest(cfg.des));
+  var s1 = $.src('./src/pages/*.bib')
+        .pipe($changed('./build/dslab/publication'))
+        .pipe($.dest('./build/dslab/publication'));
+  return merge([s0, s1]);
+};
 
 // --------------------------------------------------------------------
 // copy and deploy
 // --------------------------------------------------------------------
 
-gulp.task('copy', function() {
-  return gulp.src('./build/dslab/**/**')
-    .pipe(gulp.dest(dist));
+$.task('copy', function() {
+  return $.src('./build/dslab/**/*')
+    .pipe($.dest('../gh-pages'));
 });
 
-gulp.task('deploy', function() {
-  gulp.src(dist)
-    .pipe(rsync({
-      root: dist,
+$.task('deploy', function() {
+  $.src('../gh-pages')
+    .pipe($rsync({
+      root: '../gh-pages',
       hostname: 'mallard',
       destination: '/export/vol2/httpd/htdocs/academic/engineering/dslab',
       incremental: true,
