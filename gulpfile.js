@@ -12,6 +12,7 @@ const $changed = require('gulp-changed');
 const $concat = require('gulp-concat');
 const $flatmap = require('gulp-flatmap');
 const $if = require('gulp-if');
+const $order = require('gulp-order');
 const $ignore = require('gulp-ignore');
 const $htmlmin = require('gulp-htmlmin');
 const $mustache = require('gulp-mustache');
@@ -25,6 +26,7 @@ const $uglify = require('gulp-uglify');
 const cssnano = require('cssnano');
 
 const browsersync = require('browser-sync').create();
+const reload = (done) => {browsersync.reload(); done();};
 
 const cfg = {
   des: './build/dslab'
@@ -34,15 +36,14 @@ $.task('default', $.series(
   () => D(['./build/dslab']), $.parallel(sync, watch)));
 
 function watch() {
-  $.watch('./src/pages/**/*', {ignoreInitial: false }, pages)
-    .on('change', browsersync.reload);
-  $.watch('./src/assets/css/*', {ignoreInitial: false }, styles)
-    .on('change', browsersync.reload);
-  $.watch('./src/assets/js/*', {ignoreInitial: false }, scripts)
-    .on('change', browsersync.reload);
+  $.watch('./src/pages/**/*', {ignoreInitial: false },
+          $.series(pages, reload));
+  $.watch('./src/assets/css/*', {ignoreInitial: false },
+          $.series(styles, reload));
+  $.watch('./src/assets/js/*', {ignoreInitial: false },
+          $.series(scripts, reload));
   $.watch(['./src/assets/img/*', './src/assets/fonts/*'],
-          {ignoreInitial: false }, misc)
-    .on('change', browsersync.reload);
+          {ignoreInitial: false }, $.series(misc, reload));
 }
 
 // -------------------------------------------------------------------
@@ -84,13 +85,10 @@ function pages() {
       return ret;
     })();
 
-  console.log(cond);
-
   return $.src('./src/pages/*.mustache')
     .pipe($if((file) => !cond[P.basename(file.path, '.mustache')],
-            $changed(cfg.des)))
+              $changed(cfg.des)))
     .pipe($flatmap(function(stream, file) {
-      console.log(file.path);
       var dirname = P.dirname(file.path);
       var stem = P.basename(file.path, P.extname(file.path));
       return stream
@@ -118,11 +116,14 @@ function styles() {
              discardComments: {removeAll: true}})
   ];
   return $.src('./src/assets/css/*')
-        .pipe($changed('./build/dslab/css'))
-        .pipe($if(file => P.extname(file.path) === 'scss', $sass()))
-        .pipe($concat('style.css'))
-        .pipe($postcss(processors))
-        .pipe($.dest('./build/dslab/css'));
+    .pipe($order([
+      "src/assets/css/*.css",
+      "src/assets/css/*.scss"]))
+    .pipe($changed('./build/dslab/css'))
+    .pipe($if(file => P.extname(file.path) === '.scss', $sass()))
+    .pipe($concat('style.css'))
+    .pipe($postcss(processors))
+    .pipe($.dest('./build/dslab/css'));
 }
 
 function scripts() {

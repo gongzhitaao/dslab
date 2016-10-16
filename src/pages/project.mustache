@@ -5,27 +5,21 @@
   {{> partials/head}}
   <body class="project">
 
-    {{> partials/header}}
-
     <div class="container">
 
-    {{#projects}}
-      <div class="row">
-        <div class="col-sm-12 col-md-offset-2 col-md-8">
-          <div class="media">
-            <div class="media">
-              <div class="pull-left">
-                <img class="media-object img-rounded" src="/dslab/img/{{picture}}" alt="{{title}}">
-              </div>
-              <div class="media-body">
-                <h3 class="media-heading">{{title}}</h3>
-                <p>{{summary}}</p>
-              </div>
-            </div>
+      {{> partials/header}}
+
+      {{#projects}}
+        <div class="row">
+          <div class="col-sm-12 col-md-4">
+            <img class="img-responsive" src="/dslab/img/{{picture}}" alt="{{title}}">
+          </div>
+          <div class="col-sm-12 col-md-8">
+            <h3 class="media-heading">{{title}}</h3>
+            <p>{{summary}}</p>
           </div>
         </div>
-      </div>
-    {{/projects}}
+      {{/projects}}
 
     </div>
 
