@@ -148,10 +148,9 @@ function misc() {
 // copy and deploy
 // --------------------------------------------------------------------
 
-$.task('copy', function() {
-  return $.src('./build/dslab/**/*')
-    .pipe($.dest('../gh-pages'));
-});
+$.task('copy', $.series(
+  () => D(['../gh-pages/*'], {force: true}),
+  () => $.src('./build/dslab/**/*').pipe($.dest('../gh-pages'))));
 
 $.task('deploy', function() {
   $.src('../gh-pages')
