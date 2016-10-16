@@ -26,22 +26,27 @@
   "projects": [
     {
       "title": "Indoor Spatial Data Management",
-      "url": "http://www.nsf.gov/awardsearch/showAward?AWD_ID=1618669",
       "picture": "indoor-spatial-data-management.jpg",
       "summary": "Today most people spend a significant portion of their time daily in indoor spaces such as subway systems, office buildings, shopping malls, convention centers, and many other structures. In addition, indoor spaces are becoming increasingly large and complex. For instance, the New York City Subway has 468 stations and contains 232 miles of routes. In 2013, the subway system delivered over 1.7 billion rides, averaging approximately 5.5 million rides on weekdays. Therefore, users will have more and more demand for launching spatial queries for finding friends or points of interest in indoor spaces. However, existing spatial query evaluation techniques for outdoor environments (either based on Euclidean distance or network distance) cannot be applied in indoor spaces because these techniques assume that user locations can be acquired from GPS signals or cellular positioning, but the assumption does not hold in covered indoor spaces. Furthermore, indoor spaces are usually modeled differently from outdoor spaces. In indoor environments, user movements are enabled or constrained by entities and topologies such as doors, walls, and hallways. We study various indoor spatial data management challenges in this project.",
       "publications": [
         {
-          "cite": "Yu, Jiao, et al. \"An RFID and particle filter-based indoor spatial query evaluation system.\" Proceedings of the 16th International Conference on Extending Database Technology. ACM, 2013.",
-          "puburl": "http://dl.acm.org/citation.cfm?doid=2452376.2452408"
+          "cite": "Baba, A. I., Jaeger, M., Lu, H., Pedersen, T. B., Ku, W. S., & Xie, X. (2016, June). Learning-Based Cleansing for Indoor RFID Data. In Proceedings of the 2016 International Conference on Management of Data (pp. 925-936). ACM.",
+          "url": "http://dl.acm.org/citation.cfm?id=2882907"
         },
         {
-          "cite": "Baba, Asif Iqbal, et al. \"Learning-Based Cleansing for Indoor RFID Data.\" Proceedings of the 2016 International Conference on Management of Data. ACM, 2016."
+          "cite": "Baba, A. I., Lu, H., Ku, W. S., & Pedersen T. B. (2016). From Raw RFID Data to Most Probable Indoor Paths: An Approach Based on Regular Expression Matching.\" In Proceedings of the 24th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems. ACM."
         },
         {
-          "cite": "Asif Iqbal  Baba, Hua Lu, Wei-Shinn Ku, and Torben Bach Pedersen, \"From Raw RFID Data to Most Probable Indoor Paths: An Approach Based on Regular Expression Matching.\" Proceedings of the 24th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems. ACM, 2016."
-        }],
+          "cite": "Yu, J., Ku, W. S., Sun, M. T., & Lu, H. (2013, March). An RFID and particle filter-based indoor spatial query evaluation system. In Proceedings of the 16th International Conference on Extending Database Technology (pp. 263-274). ACM.",
+          "url": "http://dl.acm.org/citation.cfm?doid=2452376.2452408"
+        }
+      ],
       "awards": [
-        "NSF IIS Award: Indoor Spatial Query Evaluation and Trajectory Tracking with Bayesian Filtering Techniques"
+        {
+          "category": "NSF IIS Award",
+          "title": "Indoor Spatial Query Evaluation and Trajectory Tracking with Bayesian Filtering Techniques",
+          "url": "http://www.nsf.gov/awardsearch/showAward?AWD_ID=1618669"
+        }
       ]
     },
     {

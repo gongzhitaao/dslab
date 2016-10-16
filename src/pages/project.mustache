@@ -15,22 +15,22 @@
             <img class="img-responsive" src="/dslab/img/{{picture}}" alt="{{title}}">
           </div>
           <div class="col-sm-12 col-md-8">
-            <h3 class="media-heading"><a href="{{url}}">{{title}}</a></h3>
+            <h3 class="media-heading">{{title}}</h3>
             <p>{{summary}}</p>
             {{#awards.length}}
               <h4>Awards</h4>
             {{/awards.length}}
             {{#awards}}
-              <p>{{.}}</p>
+              <p>{{category}}: <a href="{{url}}">{{title}}</a></p>
             {{/awards}}
             {{#publications.length}}
               <h4>Publications</h4>
             {{/publications.length}}
             {{#publications}}
               <p>{{cite}}
-                {{#puburl}}
-                  <a target="_blank" href="{{puburl}}"><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a>
-                {{/puburl}}
+                {{#url}}
+                  <a target="_blank" href="{{url}}"><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a>
+                {{/url}}
               </p>
             {{/publications}}
           </div>
