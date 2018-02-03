@@ -3,24 +3,24 @@
   "links": [
     {
       "name": "Home",
-      "url": "./"
+      "url": "../"
     },
     {
       "name": "People",
-      "url": "people"
+      "url": "../people"
     },
     {
       "name": "Project",
-      "url": "project"
+      "url": "../project"
     },
     {
       "name": "Publication",
-      "url": "publication"
+      "url": "http://dblp.uni-trier.de/pers/hd/k/Ku:Wei=Shinn"
     },
     {
       "active": "active",
       "name": "Contact",
-      "url": "contact"
+      "url": "../contact"
     }
   ]
 }

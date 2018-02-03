@@ -4,7 +4,7 @@
     {
       "active": "active",
       "name": "Home",
-      "url": "./"
+      "url": "."
     },
     {
       "name": "People",
@@ -16,7 +16,7 @@
     },
     {
       "name": "Publication",
-      "url": "publication"
+      "url": "http://dblp.uni-trier.de/pers/hd/k/Ku:Wei=Shinn"
     },
     {
       "name": "Contact",
