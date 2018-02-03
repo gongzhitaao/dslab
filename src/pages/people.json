@@ -409,12 +409,17 @@
       "basics": {
         "name": "Haiquan Chen",
         "picture": "../img/haiquan-chen.jpg",
-        "website": "http://mypages.valdosta.edu/hachen/"
+        "website": "http://athena.ecs.csus.edu/~chenh"
       },
       "work": [
         {
+          "company": "California State University",
+          "position": "Assistant Professor"
+        },
+        {
           "company": "Valdosta State University",
-          "position": "Associate Professor"
+          "position": "Associate Professor",
+          "endDate": "2017"
         }
       ],
       "education": [
