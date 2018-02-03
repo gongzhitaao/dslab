@@ -149,13 +149,13 @@ function misc() {
 // --------------------------------------------------------------------
 
 $.task('copy', $.series(
-  () => D(['../gh-pages/*'], {force: true}),
-  () => $.src('./build/dslab/**/*').pipe($.dest('../gh-pages'))));
+  () => D(['docs'], {force: true}),
+  () => $.src('build/dslab/**/*').pipe($.dest('docs'))));
 
 $.task('deploy', function() {
   $.src('../gh-pages')
     .pipe($rsync({
-      root: '../gh-pages',
+      root: 'docs',
       hostname: 'mallard',
       destination: '/export/vol2/httpd/htdocs/academic/engineering/dslab',
       incremental: true,
