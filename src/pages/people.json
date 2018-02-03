@@ -85,33 +85,6 @@
           "endDate": "2013"
         }
       ]
-    },
-    {
-      "basics": {
-        "name": "Cheng-Chieh Wei",
-        "picture": "../img/chengchieh-wei.jpg",
-        "website": ""
-      },
-      "education": [
-        {
-          "institution": "Auburn University",
-          "area": "Computer Science",
-          "studyType": "M.S.",
-          "endDate": "2017?"
-        },
-        {
-          "institution": "National Chiao-Tung University",
-          "area": "Electrical and Computer Engineering",
-          "studyType": "M.S.",
-          "endDate": "2013"
-        },
-        {
-          "institution": "National Central University",
-          "area": "Electrical Engineering",
-          "studyType": "B.S.",
-          "endDate": "2010"
-        }
-      ]
     }
   ],
   "phds": [
@@ -255,6 +228,39 @@
     }
   ],
   "alumni": [
+    {
+      "basics": {
+        "name": "Cheng-Chieh Wei",
+        "picture": "../img/chengchieh-wei.jpg",
+        "website": ""
+      },
+      "work": [
+        {
+          "company": "Georgia Tech University",
+          "position": "Research Engineer"
+        }
+      ],
+      "education": [
+        {
+          "institution": "Auburn University",
+          "area": "Computer Science",
+          "studyType": "M.S.",
+          "endDate": "2017"
+        },
+        {
+          "institution": "National Chiao-Tung University",
+          "area": "Electrical and Computer Engineering",
+          "studyType": "M.S.",
+          "endDate": "2013"
+        },
+        {
+          "institution": "National Central University",
+          "area": "Electrical Engineering",
+          "studyType": "B.S.",
+          "endDate": "2010"
+        }
+      ]
+    },
     {
       "basics": {
         "name": "Liang Tang",
