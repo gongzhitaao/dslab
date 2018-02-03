@@ -266,6 +266,43 @@
     },
     {
       "basics": {
+        "name": "Asif Baba",
+        "picture": "../img/asif-baba.jpg",
+        "website": "https://asifbaba.github.io/personal/"
+      },
+      "work": [
+        {
+          "company": "Tuskegee University",
+          "position": "Assistant Professor",
+          "website": "https://www.tuskegee.edu/",
+          "startDate": "2016"
+        }
+      ],
+      "education": [
+        {
+          "institution": "Aalborg University",
+          "area": "Computer Science",
+          "studyType": "Ph.D.",
+          "endDate": "2016"
+        }, {
+          "institution": "University of Trento",
+          "area": "Technologies in e-Governement",
+          "studyType": "M.S.",
+          "endDate": "2009"
+        }, {
+          "institution": "Chalmers Technology University",
+          "area": "Computer Science",
+          "studyType": "M.S.",
+          "endDate": "2007"
+        }, {
+          "institution": "University of Lahore",
+          "area": "Computer Science",
+          "studyType": "B.S.",
+          "endDate": "2004"
+        }]
+    },
+    {
+      "basics": {
         "name": "Ji Zhang",
         "picture": "../img/ji-zhang.jpg",
         "website": "https://sites.google.com/site/jizhangfall2010/home"
