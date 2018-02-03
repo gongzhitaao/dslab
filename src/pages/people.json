@@ -225,6 +225,21 @@
           "endDate": "2011"
         }
       ]
+    },
+    {
+      "basics": {
+        "name": "Yien Wang",
+        "picture": "../img/yien-wang.jpg",
+        "website": ""
+      },
+      "education": [
+        {
+          "institution": "Auburn University",
+          "area": "Computer Science",
+          "studyType": "Ph.D.",
+          "endDate": "2022?"
+        }
+      ]
     }
   ],
   "alumni": [
