@@ -153,7 +153,7 @@ $.task('copy', $.series(
   () => $.src('build/dslab/**/*').pipe($.dest('docs'))));
 
 $.task('deploy', function() {
-  $.src('../gh-pages')
+  $.src('docs')
     .pipe($rsync({
       root: 'docs',
       hostname: 'mallard',
