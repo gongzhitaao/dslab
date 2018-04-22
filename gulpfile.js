@@ -152,7 +152,7 @@ $.task('copy', $.series(
   () => D(['docs'], {force: true}),
   () => $.src('build/dslab/**/*').pipe($.dest('docs'))));
 
-$.task('deploy', function() {
+$.task('deploy', function(done) {
   $.src('docs')
     .pipe($rsync({
       root: 'docs',
@@ -162,7 +162,7 @@ $.task('deploy', function() {
       progress: true,
       compress: true,
       recursive: true,
-      update: true,
       exclude: ['.git', '.gitignore', 'old']
     }));
+  done();
 });
