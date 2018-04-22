@@ -243,6 +243,40 @@
     }
   ],
   "alumni": [
+    {
+      "basics": {
+        "name": "Yi Zhou",
+        "picture": "../img/yi-zhou.png",
+        "website": ""
+      },
+      "work": [
+        {
+          "company": "Columbus State University",
+          "position": "Assistant Professor"
+        }
+      ],
+      "education": [
+        {
+          "institution": "Auburn University",
+          "area": "Computer Science",
+          "studyType": "Ph.D.",
+          "endDate": "2018"
+        },
+        {
+          "institution": "Beijing University of Technology",
+          "area": "Electrical Engineering ",
+          "studyType": "M.S.",
+          "endDate": "2010"
+        },
+        {
+          "institution": "Beijing University of Technology",
+          "area": "Electrical Engineering",
+          "studyType": "B.S.",
+          "endDate": "2006"
+        }
+      ]
+    },
+    {
       "basics": {
         "name": "Yangyang Liu",
         "picture": "../img/yangyang-liu.png",
